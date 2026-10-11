@@ -1,0 +1,43 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+mlruns/
+mlartifacts/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Python virtual environment
+.venv/
+.venv-old/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+
+# Dataset files
+data/raw/
+data/processed/
+data/corrupted/
+
+# Trained models and artifacts
+models/
+*.pt
+*.pth
+*.onnx
+
+# Experiment artifacts
+mlruns/
+mlartifacts/
+
+# Generated reports
+reports/
