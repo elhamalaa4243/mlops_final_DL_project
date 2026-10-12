@@ -1,0 +1,13 @@
+{
+  "split": "val",
+  "samples": 736,
+  "temperature": 0.7119136021571244,
+  "ece_before": 0.06403799605323002,
+  "ece_after": 0.03229364209983032,
+  "nll_before": 0.2995772361755371,
+  "nll_after": 0.26054301857948303,
+  "threshold": 0.6253718733787537,
+  "coverage": 0.929347813129425,
+  "selective_accuracy": 0.9502924084663391,
+  "target_met": true
+}

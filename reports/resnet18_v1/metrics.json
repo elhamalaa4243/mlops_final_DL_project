@@ -1,0 +1,62 @@
+{
+  "evaluated_at_utc": "2026-10-11T11:09:57.933052+00:00",
+  "model_name": "resnet18",
+  "model_version": "resnet18_v1",
+  "checkpoint": "models/frozen/resnet18_v1.pt",
+  "checkpoint_sha256": "a3b81f46eeb5f2ef8e7e4635a8b02a61e0a6c1cdf57a98fede6cf5c089f11e5c",
+  "best_training_epoch": 10,
+  "checkpoint_validation_metrics": {
+    "loss": 0.30869736514337687,
+    "accuracy": 0.9116847826086957,
+    "macro_f1": 0.9113551759298978
+  },
+  "test_samples": 3669,
+  "num_classes": 37,
+  "device": "cpu",
+  "hardware": "x86_64",
+  "batch_size": 32,
+  "torch_version": "2.14.1+cpu",
+  "preprocessing": "pet_breed.transforms.get_eval_transforms",
+  "test_accuracy": 0.8743526846552194,
+  "test_macro_f1": 0.8721634205230128,
+  "test_ece": 0.013044110279247026,
+  "ece_bins": 15,
+  "selective_metrics": [
+    {
+      "threshold": 0.0,
+      "accepted": 3669,
+      "coverage": 1.0,
+      "selective_accuracy": 0.8743526846552194
+    },
+    {
+      "threshold": 0.5,
+      "accepted": 3398,
+      "coverage": 0.926137912237667,
+      "selective_accuracy": 0.9114184814596822
+    },
+    {
+      "threshold": 0.7,
+      "accepted": 3036,
+      "coverage": 0.8274734260016353,
+      "selective_accuracy": 0.9420289855072463
+    },
+    {
+      "threshold": 0.8,
+      "accepted": 2813,
+      "coverage": 0.7666939220496048,
+      "selective_accuracy": 0.9612513330963385
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 2472,
+      "coverage": 0.6737530662305805,
+      "selective_accuracy": 0.9781553398058253
+    },
+    {
+      "threshold": 0.95,
+      "accepted": 2167,
+      "coverage": 0.5906241482692832,
+      "selective_accuracy": 0.9870789109367789
+    }
+  ]
+}

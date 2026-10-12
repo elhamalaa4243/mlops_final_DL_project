@@ -1,0 +1,22 @@
+.git
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.mypy_cache
+.ruff_cache
+reports
+notebooks
+tests
+*.zip
+*.log
+# Exclude large datasets while keeping the class mapping.
+data/raw
+data/processed/*
+!data/processed/classes.json
+# Exclude training checkpoints while keeping frozen serving artifacts.
+models/*
+!models/frozen
+models/frozen/*
+!models/frozen/resnet18_v1.pt
+!models/frozen/calibration.json

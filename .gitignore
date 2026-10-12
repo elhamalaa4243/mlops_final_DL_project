@@ -1,43 +1,67 @@
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
-.ruff_cache/
-.env
-mlruns/
-mlartifacts/
-*.pt
-*.pth
-*.onnx
-*.engine
-
-# Python virtual environment
+# ==========================================
+# Python Virtual Environments
+# ==========================================
 .venv/
 .venv-old/
+venv/
 
-# Python generated files
+# ==========================================
+# Python Generated Files
+# ==========================================
 __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
+.ruff_cache/
+build/
+dist/
+.cache/
+.ipynb_checkpoints/
 
-# IDE
+# ==========================================
+# IDE and OS
+# ==========================================
 .vscode/
+.idea/
+.DS_Store
 
-# Dataset files
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# Datasets (Managed by DVC)
+# ==========================================
 data/raw/
 data/processed/
 data/corrupted/
+data/external/
 
-# Trained models and artifacts
+# ==========================================
+# Models and Checkpoints
+# ==========================================
 models/
 *.pt
 *.pth
+*.ckpt
 *.onnx
+*.engine
 
-# Experiment artifacts
+# ==========================================
+# MLflow Tracking and Artifacts
+# ==========================================
 mlruns/
 mlartifacts/
+mlflow.db
+mlflow.db-*
 
-# Generated reports
-reports/
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+logs/
+*.log

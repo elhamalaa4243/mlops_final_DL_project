@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+# CPU-only inference dependencies; freeze resolved versions for final reproducible release.
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+fastapi==0.115.12
+uvicorn==0.34.2
+python-multipart==0.0.20
+pillow==11.2.1
+pydantic==2.11.4
