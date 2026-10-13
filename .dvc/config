@@ -1,0 +1,4 @@
+[core]
+    remote = local-storage
+['remote "local-storage"']
+    url = /home/sara_alaa/dvc-storage/pet-breed-mlops
