@@ -25,19 +25,20 @@ def load_dataset(split: str):
         root=str(DATA_ROOT),
         split=split,
         target_types="category",
-        download=True,
+        download=False,
     )
 
 
 def build_manifest(dataset, split_name: str):
     records = []
+    project_root = Path.cwd().resolve()
 
     for index in range(len(dataset)):
-        image_path = Path(dataset._images[index])
+        image_path = Path(dataset._images[index]).resolve()
         label = int(dataset._labels[index])
 
         records.append({
-            "image_path": str(image_path.resolve()),
+            "image_path": image_path.relative_to(project_root).as_posix(),
             "label": label,
             "breed": dataset.classes[label],
             "source_split": split_name,

@@ -1,0 +1,20 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python -m pet_breed.prepare_data
+    deps:
+    - path: data/raw
+      hash: md5
+      md5: 09f3f2eb7aef29750058cf9e40b59440.dir
+      size: 1632137285
+      nfiles: 25866
+    - path: src/pet_breed/prepare_data.py
+      hash: md5
+      md5: 7e9f855654d593bb4ab6eea8ade1d668
+      size: 2391
+    outs:
+    - path: data/processed
+      hash: md5
+      md5: 4903a0dd1c71d9762a5905681fa89b2a.dir
+      size: 587452
+      nfiles: 2

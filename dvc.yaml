@@ -1,0 +1,8 @@
+stages:
+  prepare:
+    cmd: python -m pet_breed.prepare_data
+    deps:
+      - src/pet_breed/prepare_data.py
+      - data/raw
+    outs:
+      - data/processed
