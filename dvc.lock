@@ -18,3 +18,50 @@ stages:
       md5: 4903a0dd1c71d9762a5905681fa89b2a.dir
       size: 587452
       nfiles: 2
+  evaluate:
+    cmd: python -m pet_breed.evaluate --checkpoint models/frozen/resnet18_v1.pt
+      --manifest data/processed/manifest.csv --classes
+      data/processed/classes.json --output-dir reports/dvc_evaluation
+      --batch-size 32 --num-workers 0 --ece-bins 15 --device cpu && python
+      scripts/export_dvc_metrics.py --input reports/dvc_evaluation/metrics.json
+      --output reports/dvc_metrics.json
+    deps:
+    - path: data/processed
+      hash: md5
+      md5: 4903a0dd1c71d9762a5905681fa89b2a.dir
+      size: 587452
+      nfiles: 2
+    - path: models/frozen/resnet18_v1.pt
+      hash: md5
+      md5: 57753af14c8f6e27cdbb83faff8699b6
+      size: 44860491
+    - path: scripts/export_dvc_metrics.py
+      hash: md5
+      md5: dc18dd0b6077ba79b4d09cf8b810a27a
+      size: 608
+    - path: src/pet_breed/dataset.py
+      hash: md5
+      md5: 6af9f85be55964ab07ba87f04d236077
+      size: 736
+    - path: src/pet_breed/evaluate.py
+      hash: md5
+      md5: 7854357618dcea7eadc27ec6a609afef
+      size: 8145
+    - path: src/pet_breed/model.py
+      hash: md5
+      md5: 69904092d65d0dec6b4b18c31915d08d
+      size: 1324
+    - path: src/pet_breed/transforms.py
+      hash: md5
+      md5: e4c40a421dfbbf6002fb599b2d1e376d
+      size: 581
+    outs:
+    - path: reports/dvc_evaluation
+      hash: md5
+      md5: 31958664dd1052347ee470bc2fc5785a.dir
+      size: 24176
+      nfiles: 5
+    - path: reports/dvc_metrics.json
+      hash: md5
+      md5: 56640d86204047c1e49a41265b576553
+      size: 117

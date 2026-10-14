@@ -6,3 +6,31 @@ stages:
       - data/raw
     outs:
       - data/processed
+
+  evaluate:
+    cmd: >-
+      python -m pet_breed.evaluate
+      --checkpoint models/frozen/resnet18_v1.pt
+      --manifest data/processed/manifest.csv
+      --classes data/processed/classes.json
+      --output-dir reports/dvc_evaluation
+      --batch-size 32
+      --num-workers 0
+      --ece-bins 15
+      --device cpu
+      && python scripts/export_dvc_metrics.py
+      --input reports/dvc_evaluation/metrics.json
+      --output reports/dvc_metrics.json
+    deps:
+      - src/pet_breed/evaluate.py
+      - src/pet_breed/dataset.py
+      - src/pet_breed/model.py
+      - src/pet_breed/transforms.py
+      - scripts/export_dvc_metrics.py
+      - models/frozen/resnet18_v1.pt
+      - data/processed
+    outs:
+      - reports/dvc_evaluation
+    metrics:
+      - reports/dvc_metrics.json:
+          cache: false
