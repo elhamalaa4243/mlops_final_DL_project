@@ -5,5 +5,5 @@ httpx
 numpy
 pandas
 scikit-learn
+matplotlib
 ruff
-torch
