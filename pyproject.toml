@@ -8,5 +8,11 @@ version = "0.1.0"
 description = "Pet Breed Classification MLOps Project"
 requires-python = ">=3.11,<3.14"
 
+
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: tests requiring real model and dataset artifacts",
+]

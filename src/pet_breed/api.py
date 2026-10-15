@@ -6,6 +6,7 @@ import json
 import os
 from contextlib import asynccontextmanager
 from pathlib import Path
+from typing import Annotated
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from PIL import Image, UnidentifiedImageError
@@ -53,7 +54,7 @@ def health():
 
 
 @app.post("/predict", response_model=PredictionResponse)
-async def predict(file: UploadFile = File(...)):
+async def predict(file: Annotated[UploadFile, File(...)]):
     if file.content_type not in {"image/jpeg", "image/png"}:
         raise HTTPException(status_code=422, detail="Only JPEG and PNG images are supported")
     raw = await file.read(MAX_UPLOAD_BYTES + 1)

@@ -10,12 +10,17 @@ import argparse
 import hashlib
 import json
 import platform
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import numpy as np
 import torch
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    confusion_matrix,
+    f1_score,
+)
 from torch.utils.data import DataLoader
 
 from pet_breed.dataset import PetBreedDataset
@@ -149,7 +154,7 @@ def main():
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     metadata = {
-        "evaluated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "evaluated_at_utc": datetime.now(UTC).isoformat(),
         "model_name": model_name,
         "model_version": "resnet18_v1",
         "checkpoint": str(checkpoint_path),

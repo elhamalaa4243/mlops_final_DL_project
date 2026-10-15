@@ -1,0 +1,9 @@
+-r requirements-serving.txt
+
+pytest
+httpx
+numpy
+pandas
+scikit-learn
+ruff
+torch

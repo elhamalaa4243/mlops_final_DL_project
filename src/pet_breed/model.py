@@ -3,14 +3,13 @@
 
 from torch import nn
 from torchvision.models import (
-    resnet18,
-    resnet50,
-    mobilenet_v3_small,
+    MobileNet_V3_Small_Weights,
     ResNet18_Weights,
     ResNet50_Weights,
-    MobileNet_V3_Small_Weights,
+    mobilenet_v3_small,
+    resnet18,
+    resnet50,
 )
-
 
 SUPPORTED_BACKBONES = (
     "resnet18",

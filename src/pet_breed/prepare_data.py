@@ -1,14 +1,13 @@
 
-from pathlib import Path
-from collections import Counter
 import json
 import random
+from collections import Counter
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from torchvision.datasets import OxfordIIITPet
-
 
 SEED = 42
 DATA_ROOT = Path("data/raw")
