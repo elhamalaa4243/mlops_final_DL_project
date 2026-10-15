@@ -150,13 +150,150 @@ The repository includes a `Dockerfile` and `compose.yaml`:
 
 ```bash
 # Build after supplying the required model and classes artifacts
-docker build -t pet-breed-mlops:local .
+docker build -t pet-breed .
 
 # See compose.yaml for service configuration
-docker compose up --build
+docker compose up -d --no-build
+docker compose ps
 ```
 
 The Docker build expects model and metadata files in the build context. **A clean Git checkout alone is not enough to build the inference image.**
+
+## Training and experiment tracking
+
+The project supports **ResNet-18, ResNet-50, and MobileNetV3-Small**. The commands below reproduce short **smoke-test training runs** (one epoch); they are not the full training recipe or a guarantee of the reported baseline metrics.
+
+### Start MLflow
+
+Install MLflow in the active development environment (it is not part of the minimal serving requirements):
+
+```bash
+uv pip install mlflow
+mlflow --version
+
+mlflow server \
+  --backend-store-uri sqlite:///mlflow.db \
+  --default-artifact-root ./mlartifacts \
+  --host 127.0.0.1 \
+  --port 5000
+```
+
+Visit **http://127.0.0.1:5000** to inspect runs and logged artifacts. Keep the server running in a separate terminal while training. When using MLflow from another process, configure its tracking URI as needed:
+
+```bash
+export MLFLOW_TRACKING_URI=http://127.0.0.1:5000
+```
+
+### Train MobileNetV3-Small
+
+```bash
+mkdir -p models/experiments
+
+python -m pet_breed.train \
+  --backbone mobilenet_v3_small \
+  --epochs 1 \
+  --batch-size 16 \
+  --lr 1e-4 \
+  --run-name mobilenet-smoke-test \
+  --output models/experiments/mobilenet_smoke.pt
+```
+
+### Train ResNet-50
+
+```bash
+mkdir -p models/experiments logs
+set -o pipefail
+
+python -u -m pet_breed.train \
+  --backbone resnet50 \
+  --epochs 1 \
+  --batch-size 8 \
+  --lr 1e-4 \
+  --run-name resnet50-smoke-test \
+  --output models/experiments/resnet50_smoke.pt \
+  2>&1 | tee logs/resnet50_smoke.log
+```
+
+These runs require the prepared dataset and training dependencies. The output checkpoints are **experimental** and do not replace `models/frozen/resnet18_v1.pt`.
+
+### Calibrate a trained checkpoint
+
+Calibration uses validation data to fit temperature scaling and a selective-prediction threshold. For example, calibrate ResNet-50:
+
+```bash
+python -m pet_breed.calibration \
+  --checkpoint models/experiments/resnet50_smoke.pt \
+  --classes data/processed/classes.json \
+  --manifest data/processed/manifest.csv \
+  --output models/experiments/resnet50_calibration.json \
+  --report-dir reports/resnet50_smoke \
+  --batch-size 16
+```
+
+The same workflow can be used for MobileNetV3-Small by changing the checkpoint, output, and report directory:
+
+```bash
+python -m pet_breed.calibration \
+  --checkpoint models/experiments/mobilenet_smoke.pt \
+  --classes data/processed/classes.json \
+  --manifest data/processed/manifest.csv \
+  --output models/experiments/mobilenet_calibration.json \
+  --report-dir reports/mobilenet_smoke \
+  --batch-size 16
+```
+
+### Log calibration results to an existing MLflow run
+
+Use the **run ID created by your own training run**. Never reuse someone else's example run ID. The following example handles both backbones:
+
+```bash
+export MLFLOW_RUN_ID="<your-mlflow-run-id>"
+export CALIBRATION_JSON="models/experiments/resnet50_calibration.json"
+export CALIBRATION_REPORT_DIR="reports/resnet50_smoke"
+
+python - <<'PYCODE'
+import json
+import os
+from pathlib import Path
+import mlflow
+
+run_id = os.environ["MLFLOW_RUN_ID"]
+calibration_path = Path(os.environ["CALIBRATION_JSON"])
+report_dir = Path(os.environ["CALIBRATION_REPORT_DIR"])
+calibration = json.loads(calibration_path.read_text(encoding="utf-8"))
+validation = calibration["validation"]
+
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+with mlflow.start_run(run_id=run_id):
+    metrics = {
+        "val_ece_uncalibrated": validation["ece_before"],
+        "val_ece_calibrated": validation["ece_after"],
+        "val_nll_uncalibrated": validation["nll_before"],
+        "val_nll_calibrated": validation["nll_after"],
+        "temperature": calibration["temperature"],
+        "threshold": calibration["threshold"],
+        "val_coverage": validation["coverage"],
+    }
+    if validation.get("selective_accuracy") is not None:
+        metrics["val_selective_accuracy"] = validation["selective_accuracy"]
+
+    mlflow.log_metrics(metrics)
+    mlflow.set_tags({
+        "calibration_split": "val",
+        "calibration_status": "completed",
+        "selective_target_met": str(validation["target_met"]).lower(),
+    })
+    mlflow.log_artifact(str(calibration_path), artifact_path="calibration")
+    if report_dir.is_dir():
+        mlflow.log_artifacts(str(report_dir), artifact_path="calibration")
+
+print("Calibration logged to MLflow run:", run_id)
+PYCODE
+```
+
+To log MobileNetV3-Small calibration, set `MLFLOW_RUN_ID`, `CALIBRATION_JSON`, and `CALIBRATION_REPORT_DIR` to that model's run and artifact paths, then execute the same script.
+
+**Note:** The calibration JSON keys shown above reflect the experiment format used in this project. Check the generated JSON if the calibration implementation changes.
 
 ## Testing and continuous integration
 
