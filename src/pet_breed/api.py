@@ -4,14 +4,19 @@ from __future__ import annotations
 import io
 import json
 import os
+import time
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Annotated
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, HTTPException, Request, UploadFile
+from fastapi.responses import Response
 from PIL import Image, UnidentifiedImageError
+from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 
+from pet_breed.drift_metrics import refresh_drift_metrics
 from pet_breed.inference import PetBreedPredictor
+from pet_breed.metrics import HTTP_DURATION, HTTP_REQUESTS, PREDICTIONS
 from pet_breed.schemas import HealthResponse, PredictionResponse
 
 MAX_UPLOAD_BYTES = 10 * 1024 * 1024
@@ -46,6 +51,45 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="Pet Breed Classification", version="0.1.0", lifespan=lifespan)
 
 
+@app.middleware("http")
+async def prometheus_middleware(request: Request, call_next):
+    if request.url.path == "/metrics":
+        return await call_next(request)
+
+    start = time.perf_counter()
+    status = 500
+
+    try:
+        response = await call_next(request)
+        status = response.status_code
+        return response
+    finally:
+        elapsed = time.perf_counter() - start
+        endpoint = request.url.path
+        if endpoint not in {"/health", "/predict"}:
+            endpoint = "other"
+
+        HTTP_REQUESTS.labels(
+            method=request.method,
+            endpoint=endpoint,
+            status=str(status),
+        ).inc()
+
+        HTTP_DURATION.labels(
+            method=request.method,
+            endpoint=endpoint,
+        ).observe(elapsed)
+
+
+@app.get("/metrics", include_in_schema=False)
+def metrics():
+    refresh_drift_metrics()
+    return Response(
+        content=generate_latest(),
+        media_type=CONTENT_TYPE_LATEST,
+    )
+
+
 @app.get("/health", response_model=HealthResponse)
 def health():
     predictor = app.state.predictor
@@ -70,6 +114,8 @@ async def predict(file: Annotated[UploadFile, File(...)]):
             image.load()
     except (UnidentifiedImageError, OSError, ValueError, Image.DecompressionBombError):
         raise HTTPException(status_code=422, detail="Invalid or unsafe image") from None
-    return app.state.predictor.predict(
+    result = app.state.predictor.predict(
         image, temperature=app.state.temperature, threshold=app.state.threshold
     )
+    PREDICTIONS.inc()
+    return result

@@ -1,0 +1,22 @@
+{
+  "model": "resnet18_v1",
+  "device": "CPU",
+  "cpu_threads": 1,
+  "batch_size": 1,
+  "warmup_iterations": 20,
+  "measured_iterations": 200,
+  "measurement_scope": "model inference only; preprocessing excluded",
+  "pytorch": {
+    "mean_ms": 79.03966937024961,
+    "p50_ms": 73.7760045012692,
+    "p95_ms": 101.87020185294385,
+    "p99_ms": 117.1145870049804
+  },
+  "onnxruntime": {
+    "mean_ms": 49.127385134670476,
+    "p50_ms": 46.01255000306992,
+    "p95_ms": 64.77882999570276,
+    "p99_ms": 91.26415798862571
+  },
+  "p95_speedup": 1.5725847759167866
+}

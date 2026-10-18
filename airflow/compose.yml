@@ -1,0 +1,29 @@
+services:
+  airflow:
+    image: apache/airflow:2.10.5
+    container_name: petbreed-airflow
+    user: "${AIRFLOW_UID:-50000}:0"
+    restart: unless-stopped
+
+    environment:
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////opt/airflow/data/airflow.db
+      AIRFLOW__WEBSERVER__SECRET_KEY: "petbreed-local-dev-only-change-me"
+      AIRFLOW__CORE__FERNET_KEY: ""
+      AIRFLOW_HOME: /opt/airflow
+
+    ports:
+      - "127.0.0.1:8085:8080"
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - airflow-data:/opt/airflow/data
+
+    command: standalone
+
+  # Persistent Airflow metadata and local development state.
+volumes:
+  airflow-data:

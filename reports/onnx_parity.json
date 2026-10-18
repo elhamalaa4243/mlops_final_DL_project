@@ -1,0 +1,9 @@
+{
+  "pytorch_model": "models/frozen/resnet18_v1.pt",
+  "onnx_model": "models/onnx/resnet18_v1.onnx",
+  "images_tested": 200,
+  "max_absolute_logit_difference": 9.5367431640625e-06,
+  "tolerance": 0.0001,
+  "top1_agreement": 1.0,
+  "status": "PASS"
+}

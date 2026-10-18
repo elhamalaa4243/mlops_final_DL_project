@@ -21,7 +21,7 @@ Classify images of cats and dogs into **37 breeds** using the Oxford-IIIT Pet da
 
 This project demonstrates an end-to-end **MLOps workflow for multi-class image classification**, not just model training. It combines reproducible data preparation, comparative deep-learning experiments, calibrated predictions, model evaluation, API serving, and continuous integration.
 
-**Current status:** Data and evaluation pipelines, model experiments, FastAPI serving, Docker configuration, and GitHub Actions lint/unit-test CI are implemented. Deployment automation, performance optimization, and production monitoring are planned next steps—not yet completed features.
+**Current status:** Data preparation, DVC, MLflow experiments, calibrated FastAPI inference, Docker serving, CI, BentoML serving, ONNX Runtime/OpenVINO CPU benchmarks, batch scoring, drift detection, Evidently reports, and Prometheus/Grafana monitoring have been implemented and locally tested. Airflow retraining, deployment canary routing, and TensorRT/Triton GPU serving remain in progress. Model optimization techniques (pruning, PTQ, QAT, distillation) are deferred.
 
 ## Results — frozen ResNet-18 baseline
 
@@ -65,6 +65,49 @@ flowchart LR
 | Inference | FastAPI, Uvicorn, Pillow |
 | Containerization | Docker / Compose |
 | CI | GitHub Actions, pytest, Ruff |
+
+## Serving, benchmarking, and monitoring
+
+The frozen `resnet18_v1` checkpoint has been served through FastAPI and BentoML (legacy Runner). The `/predict` API returns breed, species, confidence, top-three predictions, decision, and model version. Local Locust runs completed with no failed requests in the recorded tests; results are in `reports/locust_fastapi.html`, `reports/locust_bentoml.html`, and `reports/serving_comparison.md`.
+
+### CPU inference benchmark
+
+| Backend | Model-only p95 latency |
+|:--|--:|
+| PyTorch CPU | 101.87 ms |
+| ONNX Runtime CPU | 64.78 ms |
+| OpenVINO CPU | 65.99 ms |
+
+These are local, single-thread, batch-size-one measurements (20 warmups, 200 timed iterations); they exclude preprocessing and HTTP transport and should not be compared directly with Locust end-to-end latency. ONNX Runtime and OpenVINO were also compared against PyTorch on 200 images with 100% top-1 agreement in the recorded parity tests. See `reports/onnx_cpu_benchmark.json`, `reports/openvino_cpu_benchmark.json`, `reports/onnx_parity.json`, and `reports/openvino_parity.json`.
+
+### Batch drift monitoring
+
+Run `scripts/run_batch_monitoring.py` to execute the pipeline. It runs batch inference (at least 1,000 images), extracts 512-dimensional ResNet-18 embeddings and pixel statistics, calculates calibrated embedding MMD², confidence Wasserstein distance, and pixel feature shifts, then generates an Evidently HTML report. Each run stores its outputs in an isolated directory under `data/scoring/runs/`.
+
+The detector calibration and corruption scorecards are exploratory. The current reference sample comes from training data and the simulated current sample comes from test data; a drift alert does **not** by itself prove production data drift. Clean-control comparisons also showed alerts, so false-positive calibration remains an open limitation.
+
+### Prometheus and Grafana dashboard
+
+Start the monitoring stack (with the FastAPI service exposing `/metrics` on port 8002):
+
+```bash
+docker compose -f monitoring/compose.yml up -d
+```
+
+- Local Grafana: `http://localhost:3000`
+- Local Prometheus: `http://localhost:9090`
+- Dashboard: **MLOps / Pet Breed MLOps — API Monitoring**
+- Exported metrics include request counts, HTTP error rate, prediction latency histograms, drift scores, detector thresholds, detector alerts, report availability, and batch age.
+
+**Dashboard evidence:**
+
+![Grafana API availability, request rate, and p95 latency](docs/screenshots/grafana-1.png)
+
+![Grafana drift status and monitoring freshness](docs/screenshots/grafana-2.png)
+
+![Grafana drift scores and detector alerts](docs/screenshots/grafana-3.png)
+
+**Rubric check — Grafana ≥3 panels (p95, drift score, confidence distribution):** p95 latency and drift-score panels are demonstrated above. **A confidence distribution histogram/quantile panel is not yet implemented or evidenced.** The `confidence_wasserstein` drift score is *not* itself a confidence distribution. Grafana alert-rule provisioning has been configured, but notification delivery and automatic Airflow retraining are not yet validated.
 
 ## Dataset
 
@@ -363,11 +406,15 @@ The integration tests cover the real dataset manifest and reference-model logits
 - [x] Calibration-aware FastAPI inference
 - [x] Docker and Compose configuration
 - [x] GitHub Actions lint and unit-test CI
-- [ ] Model quality gates tied to checkpoint/data identity
+- [x] Candidate checkpoint-identity quality-gate script (locally smoke-tested; Airflow integration pending)
 - [ ] Automated container builds and registry publishing
-- [ ] ONNX Runtime / OpenVINO optimization and latency benchmarking
-- [ ] BentoML serving and load testing
-- [ ] Monitoring, drift detection, and deployment automation
+- [x] ONNX Runtime / OpenVINO CPU export, parity, and latency benchmarking
+- [x] BentoML Runner serving and Locust load testing
+- [x] Batch drift detection, Evidently, Prometheus, and Grafana monitoring
+- [ ] Grafana confidence distribution panel and screenshot
+- [ ] Airflow retraining and alert-trigger integration
+- [ ] nginx canary deployment automation
+- [ ] TensorRT FP16/Triton GPU serving and Locust comparison
 
 ## Acknowledgments
 

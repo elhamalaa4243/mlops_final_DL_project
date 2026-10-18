@@ -1,0 +1,19 @@
+{
+  "model": "resnet18_v1",
+  "device": "CPU",
+  "cpu_threads": 1,
+  "batch_size": 1,
+  "warmup_iterations": 20,
+  "measured_iterations": 200,
+  "measurement_scope": "model inference only; preprocessing excluded",
+  "pytorch_p95_ms": 101.87020185294385,
+  "onnxruntime_p95_ms": 64.77882999570276,
+  "openvino": {
+    "mean_ms": 52.643704549955146,
+    "p50_ms": 50.703149994660635,
+    "p95_ms": 65.99384600121992,
+    "p99_ms": 112.23267799075981
+  },
+  "openvino_vs_pytorch_p95_speedup": 1.543631838809042,
+  "openvino_vs_onnx_p95_speedup": 0.9815889498924688
+}

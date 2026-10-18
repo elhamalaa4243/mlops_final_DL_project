@@ -1,0 +1,34 @@
+{
+  "reference_samples": 1000,
+  "current_samples": 1000,
+  "embedding_drift": {
+    "method": "RBF-MMD squared (unbiased)",
+    "score": 0.0032119335990788977,
+    "rbf_bandwidth": 935.3062303645668,
+    "samples_per_group": 500
+  },
+  "pixel_drift": {
+    "brightness": {
+      "reference_mean": 114.8260269165039,
+      "current_mean": 116.002685546875,
+      "standardized_mean_shift": 0.039811876640669784
+    },
+    "contrast": {
+      "reference_mean": 56.54125213623047,
+      "current_mean": 56.17205047607422,
+      "standardized_mean_shift": 0.025972260769988813
+    },
+    "sharpness": {
+      "reference_mean": 1032.49462890625,
+      "current_mean": 1197.615478515625,
+      "standardized_mean_shift": 0.1635820857257104
+    }
+  },
+  "confidence_drift": {
+    "method": "Wasserstein distance",
+    "score": 0.09929380257427692,
+    "reference_mean_confidence": 0.9822162389755249,
+    "current_mean_confidence": 0.8829224705696106
+  },
+  "alert_status": "not_calibrated"
+}

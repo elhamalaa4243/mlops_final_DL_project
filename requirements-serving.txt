@@ -7,3 +7,4 @@ uvicorn==0.34.2
 python-multipart==0.0.20
 pillow==11.2.1
 pydantic==2.11.4
+prometheus-client==0.26.0
