@@ -40,3 +40,9 @@ jobs:
 
       - name: Run unit tests
         run: python -m pytest -q -m "not integration"
+
+      - name: Model Quality Gate
+        run: |
+          python scripts/check_model_quality.py \
+            --candidate reports/dvc_metrics.json \
+            --baseline config/model_quality_baseline.json
