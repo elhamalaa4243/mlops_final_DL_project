@@ -7,7 +7,6 @@ from pathlib import Path
 
 from PIL import Image, ImageEnhance, ImageFilter
 
-
 SCENARIOS = {
     "brightness_low": ("brightness", 1.15),
     "brightness_medium": ("brightness", 1.40),

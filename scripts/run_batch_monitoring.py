@@ -5,7 +5,7 @@ import json
 import os
 import subprocess
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 
@@ -92,7 +92,7 @@ def main():
     drift = json.loads(drift_report.read_text(encoding="utf-8"))
 
     summary = {
-        "completed_at": datetime.now(timezone.utc).isoformat(),
+        "completed_at": datetime.now(UTC).isoformat(),
         "manifest": str(args.manifest),
         "predictions": str(predictions),
         "features": str(current_features),

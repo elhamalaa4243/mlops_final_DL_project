@@ -5,7 +5,6 @@ from pathlib import Path
 
 from locust import HttpUser, between, task
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 IMAGE_DIR = PROJECT_ROOT / "data/raw/oxford-iiit-pet/images"
 

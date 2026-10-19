@@ -59,9 +59,9 @@ def main():
     write_csv(output_dir / "clean_b.csv", batch_b)
 
     all_paths = [
-        set(row["image_path"] for row in group)
-        for group in (reference, batch_a, batch_b)
-    ]
+    {row["image_path"] for row in group}
+    for group in (reference, batch_a, batch_b)
+]
 
     assert not (all_paths[0] & all_paths[1])
     assert not (all_paths[0] & all_paths[2])

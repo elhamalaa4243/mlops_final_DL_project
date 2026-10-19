@@ -11,7 +11,6 @@ from PIL import Image
 
 from pet_breed.inference import PetBreedPredictor
 
-
 ONNX_MODEL = Path("models/onnx/resnet18_v1.onnx")
 CHECKPOINT = Path("models/frozen/resnet18_v1.pt")
 CLASSES = Path("data/processed/classes.json")

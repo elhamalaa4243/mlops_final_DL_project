@@ -5,12 +5,11 @@ from pathlib import Path
 
 import bentoml
 import torch
-from bentoml.io import Image as BentoImage
 from bentoml.io import JSON
+from bentoml.io import Image as BentoImage
 from PIL import Image
 
 from pet_breed.transforms import get_eval_transforms
-
 
 MODEL_TAG = "pet_breed_resnet18:hgmfvpwkxox6arzi"
 

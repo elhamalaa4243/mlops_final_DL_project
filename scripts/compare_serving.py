@@ -1,6 +1,7 @@
 import csv
 from pathlib import Path
 
+
 def read_metrics(path):
     with open(path, newline="") as f:
         rows = list(csv.DictReader(f))

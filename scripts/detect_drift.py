@@ -7,7 +7,6 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import wasserstein_distance
 
-
 PIXEL_NAMES = ("brightness", "contrast", "sharpness")
 
 

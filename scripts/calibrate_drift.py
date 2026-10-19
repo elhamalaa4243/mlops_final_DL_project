@@ -7,7 +7,6 @@ import numpy as np
 from scipy.spatial.distance import cdist
 from scipy.stats import wasserstein_distance
 
-
 SEED = 42
 N_REPEATS = 200
 BATCH_SIZE = 500

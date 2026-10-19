@@ -8,7 +8,6 @@ import torch
 
 from pet_breed.model import create_model
 
-
 CHECKPOINT = Path("models/frozen/resnet18_v1.pt")
 CLASSES = Path("data/processed/classes.json")
 

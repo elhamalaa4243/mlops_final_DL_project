@@ -8,7 +8,6 @@ import pandas as pd
 from evidently import Report
 from evidently.presets import DataDriftPreset
 
-
 FEATURE_NAMES = [
     "brightness",
     "contrast",

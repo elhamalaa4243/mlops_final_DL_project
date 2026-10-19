@@ -5,10 +5,8 @@ import json
 from pathlib import Path
 
 import numpy as np
-from scipy.stats import wasserstein_distance
-
 from detect_drift_calibrated import calculate_mmd, load_features
-
+from scipy.stats import wasserstein_distance
 
 ROOT = Path("data/scoring/corruptions")
 OUTPUT = Path("reports/paired_corruption_scorecard.csv")
@@ -103,7 +101,7 @@ def main():
 
         print(
             f"{row['scenario']:20s} "
-            f"alert={str(row['any_alert']):5s} "
+            f"alert={row['any_alert']!s:5s} "
             f"detectors={', '.join(detected) or 'none'}"
         )
 

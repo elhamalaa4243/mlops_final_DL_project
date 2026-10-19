@@ -7,7 +7,6 @@ import torch
 
 from pet_breed.inference import PetBreedPredictor
 
-
 CHECKPOINT = Path("models/frozen/resnet18_v1.pt")
 CLASSES = Path("data/processed/classes.json")
 OUTPUT = Path("models/onnx/resnet18_v1.onnx")

@@ -8,7 +8,6 @@ from pathlib import Path
 
 import pytest
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ONNX_MODEL = PROJECT_ROOT / "models/onnx/resnet18_v1.onnx"
 CHECKPOINT = PROJECT_ROOT / "models/frozen/resnet18_v1.pt"
