@@ -1,0 +1,27 @@
+{
+  "reference_samples": 1000,
+  "current_samples": 500,
+  "scores": {
+    "embedding_mmd2": -0.0002505059101003404,
+    "confidence_wasserstein": 0.005752868711948395,
+    "pixel_brightness": 0.0040306863237082845,
+    "pixel_contrast": 0.016518514296321663,
+    "pixel_sharpness": 0.021935875517604973
+  },
+  "thresholds": {
+    "embedding_mmd2": 0.0008665673491332945,
+    "confidence_wasserstein": 0.007729372373223302,
+    "pixel_brightness": 0.11985906154248668,
+    "pixel_contrast": 0.12300328430511642,
+    "pixel_sharpness": 0.13125544515792065
+  },
+  "alerts": {
+    "embedding_mmd2": false,
+    "confidence_wasserstein": false,
+    "pixel_brightness": false,
+    "pixel_contrast": false,
+    "pixel_sharpness": false
+  },
+  "drift_detected": false,
+  "calibration_method": "clean_resampling_95th_percentile"
+}

@@ -1,0 +1,21 @@
+image_path,label,breed,source_split,split
+data/raw/oxford-iiit-pet/images/english_setter_20.jpg,13,English Setter,test,test
+data/raw/oxford-iiit-pet/images/samoyed_200.jpg,29,Samoyed,test,test
+data/raw/oxford-iiit-pet/images/wheaten_terrier_59.jpg,35,Wheaten Terrier,test,test
+data/raw/oxford-iiit-pet/images/havanese_81.jpg,16,Havanese,test,test
+data/raw/oxford-iiit-pet/images/american_bulldog_93.jpg,1,American Bulldog,test,test
+data/raw/oxford-iiit-pet/images/german_shorthaired_191.jpg,14,German Shorthaired,test,test
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_39.jpg,2,American Pit Bull Terrier,test,test
+data/raw/oxford-iiit-pet/images/leonberger_195.jpg,19,Leonberger,test,test
+data/raw/oxford-iiit-pet/images/Siamese_47.jpg,32,Siamese,test,test
+data/raw/oxford-iiit-pet/images/miniature_pinscher_87.jpg,21,Miniature Pinscher,test,test
+data/raw/oxford-iiit-pet/images/Bombay_208.jpg,7,Bombay,test,test
+data/raw/oxford-iiit-pet/images/boxer_48.jpg,8,Boxer,test,test
+data/raw/oxford-iiit-pet/images/Abyssinian_98.jpg,0,Abyssinian,test,test
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_93.jpg,2,American Pit Bull Terrier,test,test
+data/raw/oxford-iiit-pet/images/german_shorthaired_50.jpg,14,German Shorthaired,test,test
+data/raw/oxford-iiit-pet/images/american_bulldog_73.jpg,1,American Bulldog,test,test
+data/raw/oxford-iiit-pet/images/shiba_inu_57.jpg,31,Shiba Inu,test,test
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_26.jpg,34,Staffordshire Bull Terrier,test,test
+data/raw/oxford-iiit-pet/images/Persian_228.jpg,23,Persian,test,test
+data/raw/oxford-iiit-pet/images/Bombay_4.jpg,7,Bombay,test,test

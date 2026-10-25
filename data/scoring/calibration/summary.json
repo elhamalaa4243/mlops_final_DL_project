@@ -1,0 +1,8 @@
+{
+  "seed": 43,
+  "reference_count": 1000,
+  "clean_a_count": 500,
+  "clean_b_count": 500,
+  "overlap": 0,
+  "unused_train_images_remaining": 944
+}

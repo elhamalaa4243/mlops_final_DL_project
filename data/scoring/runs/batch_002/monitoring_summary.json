@@ -1,0 +1,16 @@
+{
+  "completed_at": "2026-10-18T16:50:52.152297+00:00",
+  "manifest": "data/scoring/current_manifest.csv",
+  "predictions": "data/scoring/runs/batch_002/predictions.csv",
+  "features": "data/scoring/runs/batch_002/features.npz",
+  "drift_report": "data/scoring/runs/batch_002/drift_scores.json",
+  "evidently_report": "data/scoring/runs/batch_002/evidently_drift.html",
+  "drift_detected": true,
+  "alerts": {
+    "embedding_mmd2": true,
+    "confidence_wasserstein": true,
+    "pixel_brightness": false,
+    "pixel_contrast": false,
+    "pixel_sharpness": false
+  }
+}

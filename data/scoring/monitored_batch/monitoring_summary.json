@@ -1,0 +1,16 @@
+{
+  "completed_at": "2026-10-18T16:34:52.883393+00:00",
+  "manifest": "data/scoring/current_manifest.csv",
+  "predictions": "data/scoring/output/predictions.csv",
+  "features": "data/scoring/monitored_batch/features.npz",
+  "drift_report": "data/scoring/monitored_batch/drift_scores.json",
+  "evidently_report": "data/scoring/monitored_batch/evidently_drift.html",
+  "drift_detected": true,
+  "alerts": {
+    "embedding_mmd2": true,
+    "confidence_wasserstein": true,
+    "pixel_brightness": false,
+    "pixel_contrast": false,
+    "pixel_sharpness": false
+  }
+}

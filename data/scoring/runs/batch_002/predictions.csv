@@ -1,0 +1,1001 @@
+image,predicted_breed,confidence,decision,model_version
+english_setter_20.jpg,English Setter,0.622592031955719,abstain,resnet18_v1
+samoyed_200.jpg,Samoyed,0.9967406392097473,accept,resnet18_v1
+wheaten_terrier_59.jpg,Wheaten Terrier,0.526490330696106,abstain,resnet18_v1
+havanese_81.jpg,Havanese,0.9472087025642395,accept,resnet18_v1
+american_bulldog_93.jpg,American Bulldog,0.9384509921073914,accept,resnet18_v1
+german_shorthaired_191.jpg,German Shorthaired,0.9919928312301636,accept,resnet18_v1
+american_pit_bull_terrier_39.jpg,American Pit Bull Terrier,0.7023435235023499,accept,resnet18_v1
+leonberger_195.jpg,Leonberger,0.9856642484664917,accept,resnet18_v1
+Siamese_47.jpg,Siamese,0.9993457198143005,accept,resnet18_v1
+miniature_pinscher_87.jpg,Staffordshire Bull Terrier,0.31092569231987,abstain,resnet18_v1
+Bombay_208.jpg,Bombay,0.6945493221282959,accept,resnet18_v1
+boxer_48.jpg,Boxer,0.9889554381370544,accept,resnet18_v1
+Abyssinian_98.jpg,Abyssinian,0.9998440742492676,accept,resnet18_v1
+american_pit_bull_terrier_93.jpg,German Shorthaired,0.6783826351165771,accept,resnet18_v1
+german_shorthaired_50.jpg,German Shorthaired,0.9764299392700195,accept,resnet18_v1
+american_bulldog_73.jpg,American Bulldog,0.9935060739517212,accept,resnet18_v1
+shiba_inu_57.jpg,Shiba Inu,0.9885663390159607,accept,resnet18_v1
+staffordshire_bull_terrier_26.jpg,German Shorthaired,0.7844743728637695,accept,resnet18_v1
+Persian_228.jpg,Bombay,0.9885695576667786,accept,resnet18_v1
+Bombay_4.jpg,Bombay,0.9957671165466309,accept,resnet18_v1
+english_cocker_spaniel_193.jpg,English Cocker Spaniel,0.8433348536491394,accept,resnet18_v1
+shiba_inu_37.jpg,Shiba Inu,0.995672881603241,accept,resnet18_v1
+samoyed_96.jpg,Samoyed,0.9924888610839844,accept,resnet18_v1
+Siamese_33.jpg,Siamese,0.9983550906181335,accept,resnet18_v1
+yorkshire_terrier_192.jpg,Yorkshire Terrier,0.9485995173454285,accept,resnet18_v1
+pomeranian_2.jpg,Pomeranian,0.9964126944541931,accept,resnet18_v1
+basset_hound_24.jpg,Basset Hound,0.9995937943458557,accept,resnet18_v1
+staffordshire_bull_terrier_81.jpg,Staffordshire Bull Terrier,0.5368119478225708,abstain,resnet18_v1
+Egyptian_Mau_99.jpg,Egyptian Mau,0.9798213243484497,accept,resnet18_v1
+english_cocker_spaniel_97.jpg,English Cocker Spaniel,0.9402887225151062,accept,resnet18_v1
+chihuahua_194.jpg,Chihuahua,0.9543004035949707,accept,resnet18_v1
+boxer_90.jpg,American Bulldog,0.4373290538787842,abstain,resnet18_v1
+chihuahua_79.jpg,Chihuahua,0.9997754693031311,accept,resnet18_v1
+pomeranian_29.jpg,Pomeranian,0.9998475313186646,accept,resnet18_v1
+pug_8.jpg,Pug,0.9924861192703247,accept,resnet18_v1
+Maine_Coon_30.jpg,Ragdoll,0.7774863243103027,accept,resnet18_v1
+Sphynx_223.jpg,American Pit Bull Terrier,0.806938648223877,accept,resnet18_v1
+Egyptian_Mau_199.jpg,Egyptian Mau,0.9582939147949219,accept,resnet18_v1
+Birman_196.jpg,Birman,0.9208947420120239,accept,resnet18_v1
+shiba_inu_77.jpg,Shiba Inu,0.9998730421066284,accept,resnet18_v1
+english_cocker_spaniel_197.jpg,English Cocker Spaniel,0.9924086332321167,accept,resnet18_v1
+american_pit_bull_terrier_198.jpg,American Pit Bull Terrier,0.9728954434394836,accept,resnet18_v1
+boxer_64.jpg,Boxer,0.9969255328178406,accept,resnet18_v1
+Sphynx_73.jpg,Chihuahua,0.3522219955921173,abstain,resnet18_v1
+great_pyrenees_35.jpg,Great Pyrenees,0.999072790145874,accept,resnet18_v1
+Ragdoll_26.jpg,Persian,0.7131249308586121,accept,resnet18_v1
+beagle_64.jpg,American Bulldog,0.844696044921875,accept,resnet18_v1
+Abyssinian_226.jpg,American Pit Bull Terrier,0.5862995982170105,abstain,resnet18_v1
+Maine_Coon_272.jpg,Maine Coon,0.9999477863311768,accept,resnet18_v1
+english_setter_66.jpg,English Setter,0.9999285936355591,accept,resnet18_v1
+wheaten_terrier_30.jpg,Wheaten Terrier,0.9394473433494568,accept,resnet18_v1
+german_shorthaired_19.jpg,German Shorthaired,0.9998834133148193,accept,resnet18_v1
+shiba_inu_70.jpg,Shiba Inu,0.9999935626983643,accept,resnet18_v1
+miniature_pinscher_86.jpg,Miniature Pinscher,0.6102294325828552,abstain,resnet18_v1
+keeshond_25.jpg,Keeshond,0.9870250225067139,accept,resnet18_v1
+miniature_pinscher_94.jpg,Shiba Inu,0.45230692625045776,abstain,resnet18_v1
+Egyptian_Mau_25.jpg,Egyptian Mau,0.9867903590202332,accept,resnet18_v1
+havanese_35.jpg,Havanese,0.9972098469734192,accept,resnet18_v1
+wheaten_terrier_61.jpg,Wheaten Terrier,0.9778809547424316,accept,resnet18_v1
+pug_200.jpg,Pug,0.9997801184654236,accept,resnet18_v1
+chihuahua_77.jpg,Shiba Inu,0.9154441356658936,accept,resnet18_v1
+scottish_terrier_33.jpg,Scottish Terrier,0.6524260640144348,abstain,resnet18_v1
+British_Shorthair_22.jpg,British Shorthair,0.998288094997406,accept,resnet18_v1
+Abyssinian_62.jpg,Abyssinian,0.9809902906417847,accept,resnet18_v1
+german_shorthaired_21.jpg,German Shorthaired,0.9996104836463928,accept,resnet18_v1
+shiba_inu_42.jpg,Shiba Inu,0.9993667006492615,accept,resnet18_v1
+Abyssinian_51.jpg,Abyssinian,0.9237649440765381,accept,resnet18_v1
+havanese_3.jpg,Havanese,0.9996743202209473,accept,resnet18_v1
+staffordshire_bull_terrier_92.jpg,Staffordshire Bull Terrier,0.9824956655502319,accept,resnet18_v1
+Abyssinian_54.jpg,Abyssinian,0.9400327801704407,accept,resnet18_v1
+keeshond_83.jpg,Keeshond,0.9986252784729004,accept,resnet18_v1
+german_shorthaired_78.jpg,German Shorthaired,0.9995717406272888,accept,resnet18_v1
+pomeranian_73.jpg,Pomeranian,0.999692440032959,accept,resnet18_v1
+chihuahua_86.jpg,Chihuahua,0.9843600392341614,accept,resnet18_v1
+staffordshire_bull_terrier_47.jpg,Staffordshire Bull Terrier,0.719017744064331,accept,resnet18_v1
+basset_hound_34.jpg,Basset Hound,0.9977922439575195,accept,resnet18_v1
+german_shorthaired_87.jpg,German Shorthaired,0.9990357160568237,accept,resnet18_v1
+Birman_89.jpg,Birman,0.9674814343452454,accept,resnet18_v1
+yorkshire_terrier_75.jpg,Yorkshire Terrier,0.999735414981842,accept,resnet18_v1
+samoyed_192.jpg,Samoyed,0.8068698048591614,accept,resnet18_v1
+British_Shorthair_84.jpg,British Shorthair,0.999768078327179,accept,resnet18_v1
+Egyptian_Mau_75.jpg,Egyptian Mau,0.9897603392601013,accept,resnet18_v1
+Birman_23.jpg,Birman,0.960975170135498,accept,resnet18_v1
+Bombay_82.jpg,Bombay,0.9990642666816711,accept,resnet18_v1
+scottish_terrier_91.jpg,Scottish Terrier,0.9986340403556824,accept,resnet18_v1
+British_Shorthair_27.jpg,British Shorthair,0.9984947443008423,accept,resnet18_v1
+Bengal_26.jpg,English Setter,0.6518555283546448,abstain,resnet18_v1
+saint_bernard_21.jpg,Saint Bernard,0.4630010724067688,abstain,resnet18_v1
+Persian_78.jpg,Ragdoll,0.6767129302024841,accept,resnet18_v1
+havanese_66.jpg,Havanese,0.9997228980064392,accept,resnet18_v1
+basset_hound_66.jpg,Basset Hound,0.4866676330566406,abstain,resnet18_v1
+samoyed_82.jpg,Samoyed,0.8293455243110657,accept,resnet18_v1
+Bengal_51.jpg,Maine Coon,0.38866880536079407,abstain,resnet18_v1
+staffordshire_bull_terrier_53.jpg,Staffordshire Bull Terrier,0.5553657412528992,abstain,resnet18_v1
+staffordshire_bull_terrier_51.jpg,Staffordshire Bull Terrier,0.5991095304489136,abstain,resnet18_v1
+newfoundland_22.jpg,Newfoundland,0.48603329062461853,abstain,resnet18_v1
+german_shorthaired_60.jpg,German Shorthaired,0.9969969987869263,accept,resnet18_v1
+miniature_pinscher_79.jpg,Miniature Pinscher,0.939662754535675,accept,resnet18_v1
+great_pyrenees_70.jpg,Great Pyrenees,0.9999078512191772,accept,resnet18_v1
+Bengal_35.jpg,Bengal,0.7144287824630737,accept,resnet18_v1
+wheaten_terrier_90.jpg,Wheaten Terrier,0.6765483021736145,accept,resnet18_v1
+saint_bernard_27.jpg,Saint Bernard,0.997913658618927,accept,resnet18_v1
+Abyssinian_72.jpg,Abyssinian,0.9989228844642639,accept,resnet18_v1
+havanese_4.jpg,Havanese,0.9721425175666809,accept,resnet18_v1
+Persian_84.jpg,Persian,0.9874798655509949,accept,resnet18_v1
+samoyed_32.jpg,Shiba Inu,0.7876530289649963,accept,resnet18_v1
+Siamese_66.jpg,Siamese,0.9864301681518555,accept,resnet18_v1
+havanese_44.jpg,Havanese,0.9996993541717529,accept,resnet18_v1
+basset_hound_26.jpg,Basset Hound,0.9988967180252075,accept,resnet18_v1
+american_bulldog_75.jpg,American Pit Bull Terrier,0.4437163174152374,abstain,resnet18_v1
+keeshond_44.jpg,Keeshond,0.8631918430328369,accept,resnet18_v1
+yorkshire_terrier_69.jpg,Yorkshire Terrier,0.9997338652610779,accept,resnet18_v1
+Egyptian_Mau_212.jpg,Egyptian Mau,0.9981245398521423,accept,resnet18_v1
+chihuahua_5.jpg,Chihuahua,0.867565393447876,accept,resnet18_v1
+Birman_97.jpg,Birman,0.7693794369697571,accept,resnet18_v1
+basset_hound_192.jpg,Basset Hound,0.6180384755134583,abstain,resnet18_v1
+Russian_Blue_36.jpg,Russian Blue,0.999043881893158,accept,resnet18_v1
+samoyed_38.jpg,Samoyed,0.6308152079582214,abstain,resnet18_v1
+japanese_chin_56.jpg,Japanese Chin,0.9985541701316833,accept,resnet18_v1
+Egyptian_Mau_33.jpg,Egyptian Mau,0.9998902082443237,accept,resnet18_v1
+Birman_87.jpg,Birman,0.9420275092124939,accept,resnet18_v1
+pug_86.jpg,Pug,0.9932563304901123,accept,resnet18_v1
+samoyed_197.jpg,Samoyed,0.9961403012275696,accept,resnet18_v1
+Bengal_63.jpg,Bengal,0.9991395473480225,accept,resnet18_v1
+keeshond_62.jpg,Keeshond,0.9989942908287048,accept,resnet18_v1
+pug_87.jpg,Pug,0.9860199093818665,accept,resnet18_v1
+miniature_pinscher_55.jpg,Miniature Pinscher,0.9937126040458679,accept,resnet18_v1
+yorkshire_terrier_93.jpg,Yorkshire Terrier,0.8053803443908691,accept,resnet18_v1
+leonberger_69.jpg,Leonberger,0.9383650422096252,accept,resnet18_v1
+american_pit_bull_terrier_5.jpg,English Setter,0.8218087553977966,accept,resnet18_v1
+english_setter_29.jpg,English Setter,0.9999721050262451,accept,resnet18_v1
+american_bulldog_78.jpg,Staffordshire Bull Terrier,0.9550382494926453,accept,resnet18_v1
+pomeranian_3.jpg,Pomeranian,0.9960927367210388,accept,resnet18_v1
+newfoundland_38.jpg,Newfoundland,0.9603021740913391,accept,resnet18_v1
+english_cocker_spaniel_65.jpg,English Setter,0.6060179471969604,abstain,resnet18_v1
+Maine_Coon_32.jpg,Maine Coon,0.9978417158126831,accept,resnet18_v1
+Russian_Blue_31.jpg,Russian Blue,0.9994408488273621,accept,resnet18_v1
+miniature_pinscher_85.jpg,Miniature Pinscher,0.5457645058631897,abstain,resnet18_v1
+miniature_pinscher_27.jpg,Miniature Pinscher,0.9999192953109741,accept,resnet18_v1
+staffordshire_bull_terrier_76.jpg,Sphynx,0.20830652117729187,abstain,resnet18_v1
+great_pyrenees_64.jpg,Great Pyrenees,0.9987370371818542,accept,resnet18_v1
+chihuahua_196.jpg,Pomeranian,0.9358757138252258,accept,resnet18_v1
+samoyed_94.jpg,Samoyed,0.7159552574157715,accept,resnet18_v1
+havanese_70.jpg,Havanese,0.9004476070404053,accept,resnet18_v1
+samoyed_80.jpg,Samoyed,0.9989983439445496,accept,resnet18_v1
+Birman_191.jpg,Birman,0.9859682321548462,accept,resnet18_v1
+staffordshire_bull_terrier_32.jpg,Staffordshire Bull Terrier,0.8677366375923157,accept,resnet18_v1
+Bengal_58.jpg,Bengal,0.8705148696899414,accept,resnet18_v1
+basset_hound_85.jpg,Basset Hound,0.9998904466629028,accept,resnet18_v1
+samoyed_56.jpg,Shiba Inu,0.9226154685020447,accept,resnet18_v1
+pug_2.jpg,Pug,0.9979063272476196,accept,resnet18_v1
+keeshond_47.jpg,Keeshond,0.9936816692352295,accept,resnet18_v1
+english_setter_59.jpg,English Setter,0.999992847442627,accept,resnet18_v1
+english_setter_199.jpg,English Setter,0.9995263814926147,accept,resnet18_v1
+japanese_chin_99.jpg,Japanese Chin,0.9960336089134216,accept,resnet18_v1
+staffordshire_bull_terrier_55.jpg,Staffordshire Bull Terrier,0.8494918346405029,accept,resnet18_v1
+yorkshire_terrier_3.jpg,Yorkshire Terrier,0.995591938495636,accept,resnet18_v1
+japanese_chin_63.jpg,Japanese Chin,0.9998980760574341,accept,resnet18_v1
+wheaten_terrier_196.jpg,Wheaten Terrier,0.9993682503700256,accept,resnet18_v1
+keeshond_61.jpg,Keeshond,0.9977250695228577,accept,resnet18_v1
+pug_95.jpg,Pug,0.9530855417251587,accept,resnet18_v1
+British_Shorthair_99.jpg,British Shorthair,0.9102640748023987,accept,resnet18_v1
+Russian_Blue_68.jpg,Russian Blue,0.9997363686561584,accept,resnet18_v1
+saint_bernard_22.jpg,Saint Bernard,0.9934995174407959,accept,resnet18_v1
+beagle_86.jpg,Beagle,0.8166728615760803,accept,resnet18_v1
+american_bulldog_47.jpg,American Bulldog,0.9809508323669434,accept,resnet18_v1
+saint_bernard_90.jpg,Saint Bernard,0.9996539354324341,accept,resnet18_v1
+beagle_92.jpg,Beagle,0.9892280101776123,accept,resnet18_v1
+Russian_Blue_32.jpg,Russian Blue,0.9996392726898193,accept,resnet18_v1
+Bengal_96.jpg,Bengal,0.9666597843170166,accept,resnet18_v1
+Sphynx_232.jpg,Bengal,0.40424033999443054,abstain,resnet18_v1
+Russian_Blue_87.jpg,Russian Blue,0.999629020690918,accept,resnet18_v1
+Abyssinian_31.jpg,Abyssinian,0.9998446702957153,accept,resnet18_v1
+newfoundland_43.jpg,Newfoundland,0.9973908066749573,accept,resnet18_v1
+havanese_2.jpg,Havanese,0.8718217611312866,accept,resnet18_v1
+german_shorthaired_46.jpg,Staffordshire Bull Terrier,0.9888400435447693,accept,resnet18_v1
+english_cocker_spaniel_64.jpg,English Cocker Spaniel,0.9889621138572693,accept,resnet18_v1
+Siamese_231.jpg,Siamese,0.49934569001197815,abstain,resnet18_v1
+english_cocker_spaniel_46.jpg,English Cocker Spaniel,0.9910224676132202,accept,resnet18_v1
+english_setter_197.jpg,English Setter,0.9643071293830872,accept,resnet18_v1
+american_pit_bull_terrier_202.jpg,American Pit Bull Terrier,0.7811290621757507,accept,resnet18_v1
+Sphynx_20.jpg,Sphynx,0.9961621761322021,accept,resnet18_v1
+Maine_Coon_69.jpg,Bengal,0.28118762373924255,abstain,resnet18_v1
+scottish_terrier_40.jpg,Scottish Terrier,0.9998018145561218,accept,resnet18_v1
+english_setter_60.jpg,English Setter,0.9367803931236267,accept,resnet18_v1
+wheaten_terrier_40.jpg,Wheaten Terrier,0.9112932085990906,accept,resnet18_v1
+havanese_196.jpg,Havanese,0.9982873797416687,accept,resnet18_v1
+saint_bernard_71.jpg,Saint Bernard,0.9993556141853333,accept,resnet18_v1
+miniature_pinscher_57.jpg,Miniature Pinscher,0.9802289009094238,accept,resnet18_v1
+Maine_Coon_41.jpg,Maine Coon,0.9999990463256836,accept,resnet18_v1
+beagle_75.jpg,Beagle,0.7813621759414673,accept,resnet18_v1
+great_pyrenees_43.jpg,Great Pyrenees,0.4268341064453125,abstain,resnet18_v1
+american_pit_bull_terrier_48.jpg,Staffordshire Bull Terrier,0.9260913729667664,accept,resnet18_v1
+shiba_inu_83.jpg,Shiba Inu,0.9998602867126465,accept,resnet18_v1
+beagle_70.jpg,German Shorthaired,0.21476732194423676,abstain,resnet18_v1
+Sphynx_65.jpg,Sphynx,0.9996528625488281,accept,resnet18_v1
+yorkshire_terrier_26.jpg,Yorkshire Terrier,0.9967203736305237,accept,resnet18_v1
+Abyssinian_52.jpg,Bengal,0.43237313628196716,abstain,resnet18_v1
+yorkshire_terrier_34.jpg,Yorkshire Terrier,0.9986875653266907,accept,resnet18_v1
+Egyptian_Mau_86.jpg,Egyptian Mau,0.9994587302207947,accept,resnet18_v1
+Ragdoll_90.jpg,Ragdoll,0.9994202852249146,accept,resnet18_v1
+staffordshire_bull_terrier_91.jpg,Staffordshire Bull Terrier,0.9808796048164368,accept,resnet18_v1
+Siamese_218.jpg,Siamese,0.4042384624481201,abstain,resnet18_v1
+newfoundland_73.jpg,Newfoundland,0.9977953433990479,accept,resnet18_v1
+Sphynx_249.jpg,Abyssinian,0.48020312190055847,abstain,resnet18_v1
+pug_77.jpg,Pug,0.9963237047195435,accept,resnet18_v1
+Russian_Blue_221.jpg,Bombay,0.9420974254608154,accept,resnet18_v1
+newfoundland_200.jpg,Newfoundland,0.9692047834396362,accept,resnet18_v1
+Siamese_79.jpg,Siamese,0.9994327425956726,accept,resnet18_v1
+Abyssinian_4.jpg,Abyssinian,0.8722790479660034,accept,resnet18_v1
+samoyed_46.jpg,Samoyed,0.9993744492530823,accept,resnet18_v1
+Sphynx_23.jpg,Sphynx,0.879102885723114,accept,resnet18_v1
+shiba_inu_6.jpg,Shiba Inu,0.9996843338012695,accept,resnet18_v1
+scottish_terrier_92.jpg,English Setter,0.3649373948574066,abstain,resnet18_v1
+yorkshire_terrier_85.jpg,Yorkshire Terrier,0.983353853225708,accept,resnet18_v1
+Sphynx_78.jpg,Sphynx,0.998264491558075,accept,resnet18_v1
+British_Shorthair_266.jpg,British Shorthair,0.8010504245758057,accept,resnet18_v1
+Bengal_40.jpg,Bengal,0.9972057938575745,accept,resnet18_v1
+Bombay_78.jpg,Bombay,0.9990032315254211,accept,resnet18_v1
+english_cocker_spaniel_95.jpg,English Cocker Spaniel,0.9999760389328003,accept,resnet18_v1
+american_bulldog_41.jpg,American Bulldog,0.7941488027572632,accept,resnet18_v1
+beagle_56.jpg,Beagle,0.74324631690979,accept,resnet18_v1
+american_bulldog_72.jpg,American Bulldog,0.7614546418190002,accept,resnet18_v1
+havanese_5.jpg,Havanese,0.9984918832778931,accept,resnet18_v1
+newfoundland_89.jpg,Newfoundland,0.28368356823921204,abstain,resnet18_v1
+pomeranian_81.jpg,Pomeranian,0.9995465874671936,accept,resnet18_v1
+beagle_81.jpg,Beagle,0.5287635326385498,abstain,resnet18_v1
+British_Shorthair_64.jpg,British Shorthair,0.8989948630332947,accept,resnet18_v1
+Maine_Coon_227.jpg,Maine Coon,0.7272828817367554,accept,resnet18_v1
+shiba_inu_205.jpg,Shiba Inu,0.748318612575531,accept,resnet18_v1
+Birman_28.jpg,Birman,0.8323153853416443,accept,resnet18_v1
+Egyptian_Mau_28.jpg,Egyptian Mau,0.7159824967384338,accept,resnet18_v1
+english_setter_45.jpg,English Setter,0.998663067817688,accept,resnet18_v1
+japanese_chin_23.jpg,Japanese Chin,0.9967279434204102,accept,resnet18_v1
+pug_41.jpg,Pug,0.9711017608642578,accept,resnet18_v1
+english_cocker_spaniel_5.jpg,English Cocker Spaniel,0.9974461793899536,accept,resnet18_v1
+Egyptian_Mau_58.jpg,Egyptian Mau,0.9225772023200989,accept,resnet18_v1
+Sphynx_45.jpg,Sphynx,0.6544694900512695,abstain,resnet18_v1
+pomeranian_199.jpg,Pomeranian,0.9765174388885498,accept,resnet18_v1
+american_pit_bull_terrier_54.jpg,Staffordshire Bull Terrier,0.5801430940628052,abstain,resnet18_v1
+miniature_pinscher_97.jpg,Miniature Pinscher,0.9983819723129272,accept,resnet18_v1
+Abyssinian_221.jpg,Abyssinian,0.9012693762779236,accept,resnet18_v1
+havanese_25.jpg,Havanese,0.996985137462616,accept,resnet18_v1
+pomeranian_93.jpg,Pomeranian,0.9991106390953064,accept,resnet18_v1
+wheaten_terrier_57.jpg,Wheaten Terrier,0.8912039995193481,accept,resnet18_v1
+beagle_24.jpg,Beagle,0.9445114135742188,accept,resnet18_v1
+great_pyrenees_31.jpg,Great Pyrenees,0.9988137483596802,accept,resnet18_v1
+american_pit_bull_terrier_57.jpg,Staffordshire Bull Terrier,0.6720635890960693,accept,resnet18_v1
+Ragdoll_63.jpg,Ragdoll,0.9991436004638672,accept,resnet18_v1
+miniature_pinscher_80.jpg,Miniature Pinscher,0.999985933303833,accept,resnet18_v1
+beagle_97.jpg,Beagle,0.8555905222892761,accept,resnet18_v1
+Maine_Coon_2.jpg,Maine Coon,0.9814847707748413,accept,resnet18_v1
+keeshond_60.jpg,Keeshond,0.9997641444206238,accept,resnet18_v1
+Russian_Blue_41.jpg,Russian Blue,0.9980403780937195,accept,resnet18_v1
+chihuahua_23.jpg,Chihuahua,0.9876460433006287,accept,resnet18_v1
+newfoundland_60.jpg,Newfoundland,0.9778611063957214,accept,resnet18_v1
+great_pyrenees_72.jpg,Great Pyrenees,0.9992274045944214,accept,resnet18_v1
+english_cocker_spaniel_32.jpg,English Cocker Spaniel,0.994368851184845,accept,resnet18_v1
+British_Shorthair_63.jpg,British Shorthair,0.9959598183631897,accept,resnet18_v1
+chihuahua_32.jpg,Chihuahua,0.998884379863739,accept,resnet18_v1
+Bengal_88.jpg,Bengal,0.9952254295349121,accept,resnet18_v1
+miniature_pinscher_73.jpg,Miniature Pinscher,0.9977695941925049,accept,resnet18_v1
+american_pit_bull_terrier_30.jpg,Staffordshire Bull Terrier,0.5207963585853577,abstain,resnet18_v1
+Russian_Blue_206.jpg,Russian Blue,0.4254937767982483,abstain,resnet18_v1
+chihuahua_193.jpg,Chihuahua,0.7989817261695862,accept,resnet18_v1
+scottish_terrier_93.jpg,Scottish Terrier,0.9996209144592285,accept,resnet18_v1
+american_pit_bull_terrier_60.jpg,American Pit Bull Terrier,0.985600471496582,accept,resnet18_v1
+beagle_54.jpg,Beagle,0.42876872420310974,abstain,resnet18_v1
+english_cocker_spaniel_49.jpg,English Cocker Spaniel,0.9991217255592346,accept,resnet18_v1
+Maine_Coon_8.jpg,Egyptian Mau,0.48710209131240845,abstain,resnet18_v1
+miniature_pinscher_8.jpg,Miniature Pinscher,0.9800236821174622,accept,resnet18_v1
+Siamese_37.jpg,Siamese,0.9840001463890076,accept,resnet18_v1
+shiba_inu_65.jpg,Shiba Inu,0.849071741104126,accept,resnet18_v1
+american_pit_bull_terrier_7.jpg,Staffordshire Bull Terrier,0.46025562286376953,abstain,resnet18_v1
+pug_73.jpg,Pug,0.9320052266120911,accept,resnet18_v1
+english_cocker_spaniel_75.jpg,English Cocker Spaniel,0.9998927116394043,accept,resnet18_v1
+British_Shorthair_38.jpg,British Shorthair,0.966392993927002,accept,resnet18_v1
+scottish_terrier_59.jpg,Scottish Terrier,0.7760359048843384,accept,resnet18_v1
+yorkshire_terrier_194.jpg,Yorkshire Terrier,0.9803985953330994,accept,resnet18_v1
+Siamese_225.jpg,Chihuahua,0.7054774761199951,accept,resnet18_v1
+pug_66.jpg,Pug,0.9963022470474243,accept,resnet18_v1
+Ragdoll_93.jpg,Ragdoll,0.5877055525779724,abstain,resnet18_v1
+wheaten_terrier_83.jpg,Wheaten Terrier,0.99752277135849,accept,resnet18_v1
+saint_bernard_36.jpg,Saint Bernard,0.9973638653755188,accept,resnet18_v1
+japanese_chin_21.jpg,Japanese Chin,0.9600646495819092,accept,resnet18_v1
+keeshond_21.jpg,Keeshond,0.9880778193473816,accept,resnet18_v1
+english_setter_48.jpg,English Setter,0.9999499320983887,accept,resnet18_v1
+wheaten_terrier_39.jpg,Wheaten Terrier,0.9292159080505371,accept,resnet18_v1
+Abyssinian_216.jpg,Abyssinian,0.9940137267112732,accept,resnet18_v1
+leonberger_96.jpg,Leonberger,0.9865453839302063,accept,resnet18_v1
+shiba_inu_75.jpg,Shiba Inu,0.997951090335846,accept,resnet18_v1
+pug_72.jpg,Pug,0.9998801946640015,accept,resnet18_v1
+pomeranian_98.jpg,Pomeranian,0.9992560744285583,accept,resnet18_v1
+staffordshire_bull_terrier_87.jpg,Staffordshire Bull Terrier,0.9923993945121765,accept,resnet18_v1
+Abyssinian_60.jpg,Abyssinian,0.9538964033126831,accept,resnet18_v1
+Ragdoll_95.jpg,Siamese,0.6883372068405151,accept,resnet18_v1
+english_setter_41.jpg,English Setter,0.9999364614486694,accept,resnet18_v1
+american_bulldog_91.jpg,Staffordshire Bull Terrier,0.8731939792633057,accept,resnet18_v1
+Bengal_6.jpg,Bengal,0.5501101613044739,abstain,resnet18_v1
+Bombay_34.jpg,Bombay,0.9992021918296814,accept,resnet18_v1
+great_pyrenees_6.jpg,Great Pyrenees,0.8836619257926941,accept,resnet18_v1
+saint_bernard_45.jpg,Saint Bernard,0.9905485510826111,accept,resnet18_v1
+pomeranian_97.jpg,Samoyed,0.42998602986335754,abstain,resnet18_v1
+Egyptian_Mau_59.jpg,Egyptian Mau,0.9996836185455322,accept,resnet18_v1
+keeshond_198.jpg,Keeshond,0.985174834728241,accept,resnet18_v1
+Persian_269.jpg,Persian,0.6038142442703247,abstain,resnet18_v1
+english_setter_54.jpg,English Setter,0.9999088048934937,accept,resnet18_v1
+chihuahua_66.jpg,Chihuahua,0.9247828125953674,accept,resnet18_v1
+Ragdoll_261.jpg,Ragdoll,0.9936805963516235,accept,resnet18_v1
+Persian_25.jpg,Persian,0.5518806576728821,abstain,resnet18_v1
+basset_hound_51.jpg,Basset Hound,0.9572457671165466,accept,resnet18_v1
+chihuahua_35.jpg,Chihuahua,0.9987321496009827,accept,resnet18_v1
+Maine_Coon_51.jpg,Maine Coon,0.9961639642715454,accept,resnet18_v1
+shiba_inu_98.jpg,Shiba Inu,0.9931584000587463,accept,resnet18_v1
+Abyssinian_213.jpg,Abyssinian,0.9967880249023438,accept,resnet18_v1
+pug_9.jpg,Pug,0.7396847605705261,accept,resnet18_v1
+staffordshire_bull_terrier_50.jpg,Staffordshire Bull Terrier,0.9745287299156189,accept,resnet18_v1
+wheaten_terrier_52.jpg,Wheaten Terrier,0.6058437824249268,abstain,resnet18_v1
+Maine_Coon_254.jpg,Bengal,0.8415738940238953,accept,resnet18_v1
+beagle_80.jpg,Beagle,0.8915840983390808,accept,resnet18_v1
+havanese_82.jpg,Havanese,0.9987338185310364,accept,resnet18_v1
+shiba_inu_207.jpg,Shiba Inu,0.999988317489624,accept,resnet18_v1
+beagle_65.jpg,Beagle,0.730889081954956,accept,resnet18_v1
+saint_bernard_43.jpg,Basset Hound,0.34945160150527954,abstain,resnet18_v1
+wheaten_terrier_55.jpg,Wheaten Terrier,0.8996480107307434,accept,resnet18_v1
+american_pit_bull_terrier_71.jpg,American Pit Bull Terrier,0.6565729379653931,abstain,resnet18_v1
+american_pit_bull_terrier_97.jpg,German Shorthaired,0.9439577460289001,accept,resnet18_v1
+boxer_72.jpg,Basset Hound,0.8010514974594116,accept,resnet18_v1
+Ragdoll_84.jpg,Ragdoll,0.33463042974472046,abstain,resnet18_v1
+British_Shorthair_70.jpg,British Shorthair,0.9982086420059204,accept,resnet18_v1
+British_Shorthair_51.jpg,British Shorthair,0.9858084917068481,accept,resnet18_v1
+english_setter_95.jpg,English Setter,0.9919191002845764,accept,resnet18_v1
+pug_60.jpg,Pug,0.9185579419136047,accept,resnet18_v1
+Persian_86.jpg,Persian,0.9546377658843994,accept,resnet18_v1
+miniature_pinscher_75.jpg,Miniature Pinscher,0.9999958276748657,accept,resnet18_v1
+chihuahua_81.jpg,Chihuahua,0.8612263202667236,accept,resnet18_v1
+american_bulldog_61.jpg,American Bulldog,0.7881186604499817,accept,resnet18_v1
+samoyed_4.jpg,Samoyed,0.8505083322525024,accept,resnet18_v1
+saint_bernard_60.jpg,Saint Bernard,0.9938469529151917,accept,resnet18_v1
+beagle_28.jpg,Beagle,0.9231802225112915,accept,resnet18_v1
+miniature_pinscher_47.jpg,Miniature Pinscher,0.9917941689491272,accept,resnet18_v1
+Abyssinian_2.jpg,Abyssinian,0.9997642636299133,accept,resnet18_v1
+Siamese_89.jpg,Siamese,0.9993435740470886,accept,resnet18_v1
+shiba_inu_23.jpg,Shiba Inu,0.9847819209098816,accept,resnet18_v1
+pug_53.jpg,Pug,0.9996206760406494,accept,resnet18_v1
+american_bulldog_40.jpg,American Bulldog,0.4524521231651306,abstain,resnet18_v1
+english_setter_2.jpg,English Setter,0.9980399012565613,accept,resnet18_v1
+yorkshire_terrier_88.jpg,Yorkshire Terrier,0.9961728453636169,accept,resnet18_v1
+keeshond_94.jpg,Keeshond,0.9997652173042297,accept,resnet18_v1
+Maine_Coon_56.jpg,Maine Coon,0.9999784231185913,accept,resnet18_v1
+British_Shorthair_41.jpg,British Shorthair,0.9857270121574402,accept,resnet18_v1
+Bengal_193.jpg,Bengal,0.8404710292816162,accept,resnet18_v1
+British_Shorthair_65.jpg,British Shorthair,0.7696045637130737,accept,resnet18_v1
+english_cocker_spaniel_33.jpg,English Cocker Spaniel,0.9987969398498535,accept,resnet18_v1
+Birman_96.jpg,Birman,0.6744736433029175,accept,resnet18_v1
+havanese_95.jpg,Havanese,0.9999425411224365,accept,resnet18_v1
+samoyed_69.jpg,Samoyed,0.9663671255111694,accept,resnet18_v1
+keeshond_55.jpg,Keeshond,0.9898172616958618,accept,resnet18_v1
+staffordshire_bull_terrier_61.jpg,Staffordshire Bull Terrier,0.807076096534729,accept,resnet18_v1
+Siamese_35.jpg,Siamese,0.9996009469032288,accept,resnet18_v1
+yorkshire_terrier_52.jpg,Yorkshire Terrier,0.9994852542877197,accept,resnet18_v1
+Russian_Blue_211.jpg,Russian Blue,0.9423264265060425,accept,resnet18_v1
+english_setter_55.jpg,English Setter,0.9949373006820679,accept,resnet18_v1
+Egyptian_Mau_50.jpg,Egyptian Mau,0.9754781723022461,accept,resnet18_v1
+Russian_Blue_228.jpg,Egyptian Mau,0.3641887903213501,abstain,resnet18_v1
+Ragdoll_203.jpg,Siamese,0.7016778588294983,accept,resnet18_v1
+miniature_pinscher_39.jpg,Miniature Pinscher,0.49740734696388245,abstain,resnet18_v1
+Birman_36.jpg,Ragdoll,0.9310540556907654,accept,resnet18_v1
+english_cocker_spaniel_42.jpg,English Cocker Spaniel,0.8622028827667236,accept,resnet18_v1
+Birman_68.jpg,Birman,0.9955552220344543,accept,resnet18_v1
+Siamese_64.jpg,Siamese,0.9997121691703796,accept,resnet18_v1
+Persian_259.jpg,Persian,0.9997557997703552,accept,resnet18_v1
+pomeranian_193.jpg,Pomeranian,0.9999889135360718,accept,resnet18_v1
+great_pyrenees_89.jpg,Great Pyrenees,0.9972246885299683,accept,resnet18_v1
+Sphynx_230.jpg,Staffordshire Bull Terrier,0.4315720796585083,abstain,resnet18_v1
+japanese_chin_55.jpg,Japanese Chin,0.9682663083076477,accept,resnet18_v1
+Russian_Blue_220.jpg,Bombay,0.4979323744773865,abstain,resnet18_v1
+Ragdoll_41.jpg,Ragdoll,0.9959366321563721,accept,resnet18_v1
+Siamese_70.jpg,Siamese,0.999019980430603,accept,resnet18_v1
+leonberger_60.jpg,Leonberger,0.9000412821769714,accept,resnet18_v1
+pug_202.jpg,Pug,0.9923925399780273,accept,resnet18_v1
+great_pyrenees_75.jpg,Great Pyrenees,0.9936167001724243,accept,resnet18_v1
+Bengal_56.jpg,Bengal,0.9439508318901062,accept,resnet18_v1
+keeshond_194.jpg,Keeshond,0.7874504923820496,accept,resnet18_v1
+havanese_93.jpg,Havanese,0.8852080702781677,accept,resnet18_v1
+Bengal_75.jpg,Bengal,0.9955540299415588,accept,resnet18_v1
+japanese_chin_97.jpg,Pomeranian,0.4482685923576355,abstain,resnet18_v1
+Persian_69.jpg,Persian,0.9999716281890869,accept,resnet18_v1
+British_Shorthair_75.jpg,British Shorthair,0.9950917959213257,accept,resnet18_v1
+pomeranian_90.jpg,Pomeranian,0.9996398687362671,accept,resnet18_v1
+Maine_Coon_35.jpg,Maine Coon,0.9775779247283936,accept,resnet18_v1
+Birman_60.jpg,Birman,0.9976587295532227,accept,resnet18_v1
+Maine_Coon_99.jpg,Maine Coon,0.999250590801239,accept,resnet18_v1
+beagle_23.jpg,Basset Hound,0.5085415840148926,abstain,resnet18_v1
+miniature_pinscher_67.jpg,Miniature Pinscher,0.9888660311698914,accept,resnet18_v1
+japanese_chin_51.jpg,Japanese Chin,0.9972495436668396,accept,resnet18_v1
+boxer_70.jpg,Boxer,0.9973145127296448,accept,resnet18_v1
+great_pyrenees_61.jpg,Great Pyrenees,0.9966894388198853,accept,resnet18_v1
+keeshond_8.jpg,Keeshond,0.9999473094940186,accept,resnet18_v1
+scottish_terrier_97.jpg,Scottish Terrier,0.999308705329895,accept,resnet18_v1
+scottish_terrier_56.jpg,Scottish Terrier,0.9986993074417114,accept,resnet18_v1
+beagle_3.jpg,Beagle,0.9940006136894226,accept,resnet18_v1
+samoyed_89.jpg,Samoyed,0.9983102083206177,accept,resnet18_v1
+scottish_terrier_76.jpg,Scottish Terrier,0.9666072130203247,accept,resnet18_v1
+english_cocker_spaniel_58.jpg,English Cocker Spaniel,0.943261444568634,accept,resnet18_v1
+chihuahua_80.jpg,Chihuahua,0.9022175669670105,accept,resnet18_v1
+staffordshire_bull_terrier_29.jpg,American Bulldog,0.41054755449295044,abstain,resnet18_v1
+wheaten_terrier_72.jpg,English Setter,0.48418480157852173,abstain,resnet18_v1
+Bombay_61.jpg,Bombay,0.9995903372764587,accept,resnet18_v1
+leonberger_83.jpg,Leonberger,0.9970763921737671,accept,resnet18_v1
+beagle_61.jpg,Basset Hound,0.7355798482894897,accept,resnet18_v1
+wheaten_terrier_51.jpg,Wheaten Terrier,0.7177340388298035,accept,resnet18_v1
+Maine_Coon_38.jpg,Maine Coon,0.9019237756729126,accept,resnet18_v1
+Persian_71.jpg,Maine Coon,0.9667588472366333,accept,resnet18_v1
+staffordshire_bull_terrier_28.jpg,American Bulldog,0.549532413482666,abstain,resnet18_v1
+great_pyrenees_44.jpg,Great Pyrenees,0.6241921186447144,abstain,resnet18_v1
+Maine_Coon_268.jpg,Ragdoll,0.5581838488578796,abstain,resnet18_v1
+pomeranian_26.jpg,Pomeranian,0.9762827754020691,accept,resnet18_v1
+Persian_30.jpg,Persian,0.9998408555984497,accept,resnet18_v1
+american_bulldog_67.jpg,American Bulldog,0.5048644542694092,abstain,resnet18_v1
+Egyptian_Mau_97.jpg,Egyptian Mau,0.9977307915687561,accept,resnet18_v1
+chihuahua_87.jpg,Miniature Pinscher,0.7028425931930542,accept,resnet18_v1
+german_shorthaired_28.jpg,German Shorthaired,0.997188150882721,accept,resnet18_v1
+basset_hound_40.jpg,Basset Hound,0.6349048614501953,abstain,resnet18_v1
+pomeranian_62.jpg,Pomeranian,0.9998213648796082,accept,resnet18_v1
+pomeranian_36.jpg,Pomeranian,0.892389714717865,accept,resnet18_v1
+staffordshire_bull_terrier_52.jpg,Boxer,0.7489246726036072,accept,resnet18_v1
+leonberger_75.jpg,Leonberger,0.9915459752082825,accept,resnet18_v1
+japanese_chin_41.jpg,Japanese Chin,0.9967350363731384,accept,resnet18_v1
+basset_hound_56.jpg,Basset Hound,0.9991437196731567,accept,resnet18_v1
+Egyptian_Mau_46.jpg,Egyptian Mau,0.9982996582984924,accept,resnet18_v1
+keeshond_56.jpg,Keeshond,0.9997382760047913,accept,resnet18_v1
+wheaten_terrier_22.jpg,Wheaten Terrier,0.6265743970870972,abstain,resnet18_v1
+samoyed_45.jpg,Samoyed,0.8166566491127014,accept,resnet18_v1
+german_shorthaired_90.jpg,German Shorthaired,0.9997690320014954,accept,resnet18_v1
+boxer_45.jpg,Boxer,0.9962357878684998,accept,resnet18_v1
+chihuahua_44.jpg,Chihuahua,0.9988517761230469,accept,resnet18_v1
+basset_hound_200.jpg,Beagle,0.9893220663070679,accept,resnet18_v1
+english_setter_32.jpg,English Setter,0.9633542895317078,accept,resnet18_v1
+Birman_53.jpg,Birman,0.9609980583190918,accept,resnet18_v1
+yorkshire_terrier_22.jpg,Yorkshire Terrier,0.9992942810058594,accept,resnet18_v1
+British_Shorthair_91.jpg,British Shorthair,0.35862401127815247,abstain,resnet18_v1
+shiba_inu_36.jpg,Shiba Inu,0.9999971389770508,accept,resnet18_v1
+Persian_22.jpg,Persian,0.9980231523513794,accept,resnet18_v1
+boxer_42.jpg,Boxer,0.4676762521266937,abstain,resnet18_v1
+Sphynx_243.jpg,Sphynx,0.9307161569595337,accept,resnet18_v1
+boxer_198.jpg,American Bulldog,0.993762195110321,accept,resnet18_v1
+basset_hound_65.jpg,Basset Hound,0.9909678101539612,accept,resnet18_v1
+Siamese_41.jpg,Siamese,0.9992550015449524,accept,resnet18_v1
+Bombay_201.jpg,Bombay,0.9965093731880188,accept,resnet18_v1
+Sphynx_83.jpg,Sphynx,0.987179696559906,accept,resnet18_v1
+basset_hound_97.jpg,Basset Hound,0.9976938366889954,accept,resnet18_v1
+miniature_pinscher_62.jpg,Miniature Pinscher,0.9984136819839478,accept,resnet18_v1
+Bengal_201.jpg,Bengal,0.9921451210975647,accept,resnet18_v1
+leonberger_53.jpg,Leonberger,0.9993653893470764,accept,resnet18_v1
+Persian_83.jpg,Persian,0.999997615814209,accept,resnet18_v1
+scottish_terrier_25.jpg,Scottish Terrier,0.9993162155151367,accept,resnet18_v1
+great_pyrenees_92.jpg,Great Pyrenees,0.9942745566368103,accept,resnet18_v1
+Russian_Blue_78.jpg,Russian Blue,0.9529237747192383,accept,resnet18_v1
+wheaten_terrier_60.jpg,Wheaten Terrier,0.9327390193939209,accept,resnet18_v1
+japanese_chin_27.jpg,Japanese Chin,0.9985590577125549,accept,resnet18_v1
+Bombay_202.jpg,Bombay,0.6691780686378479,accept,resnet18_v1
+leonberger_47.jpg,Leonberger,0.6045876145362854,abstain,resnet18_v1
+samoyed_30.jpg,Samoyed,0.9449971318244934,accept,resnet18_v1
+english_setter_35.jpg,English Setter,0.7821717262268066,accept,resnet18_v1
+english_cocker_spaniel_44.jpg,English Setter,0.98598712682724,accept,resnet18_v1
+saint_bernard_62.jpg,Saint Bernard,0.9884054660797119,accept,resnet18_v1
+Bengal_48.jpg,Egyptian Mau,0.4198838770389557,abstain,resnet18_v1
+chihuahua_26.jpg,Chihuahua,0.9023075699806213,accept,resnet18_v1
+wheaten_terrier_3.jpg,Wheaten Terrier,0.46749287843704224,abstain,resnet18_v1
+pug_70.jpg,Pug,0.6196855306625366,abstain,resnet18_v1
+Russian_Blue_236.jpg,Russian Blue,0.3538632392883301,abstain,resnet18_v1
+Ragdoll_45.jpg,Persian,0.3113242983818054,abstain,resnet18_v1
+Egyptian_Mau_220.jpg,Egyptian Mau,0.9991231560707092,accept,resnet18_v1
+newfoundland_48.jpg,Newfoundland,0.9997085928916931,accept,resnet18_v1
+British_Shorthair_97.jpg,British Shorthair,0.9848310947418213,accept,resnet18_v1
+Abyssinian_26.jpg,Abyssinian,0.9807106852531433,accept,resnet18_v1
+boxer_88.jpg,Boxer,0.9975700974464417,accept,resnet18_v1
+great_pyrenees_58.jpg,Great Pyrenees,0.998323380947113,accept,resnet18_v1
+chihuahua_57.jpg,Chihuahua,0.9914847016334534,accept,resnet18_v1
+german_shorthaired_196.jpg,German Shorthaired,0.9998835325241089,accept,resnet18_v1
+Egyptian_Mau_82.jpg,Egyptian Mau,0.9293011426925659,accept,resnet18_v1
+american_pit_bull_terrier_41.jpg,Staffordshire Bull Terrier,0.37559396028518677,abstain,resnet18_v1
+scottish_terrier_80.jpg,Scottish Terrier,0.9973399043083191,accept,resnet18_v1
+Persian_42.jpg,Persian,0.9999973773956299,accept,resnet18_v1
+Sphynx_248.jpg,Sphynx,0.9981034994125366,accept,resnet18_v1
+Siamese_80.jpg,Siamese,0.9999953508377075,accept,resnet18_v1
+american_pit_bull_terrier_86.jpg,German Shorthaired,0.9768865704536438,accept,resnet18_v1
+Ragdoll_76.jpg,Ragdoll,0.9036294221878052,accept,resnet18_v1
+newfoundland_92.jpg,Newfoundland,0.8208886981010437,accept,resnet18_v1
+newfoundland_2.jpg,Newfoundland,0.9981160163879395,accept,resnet18_v1
+miniature_pinscher_50.jpg,Miniature Pinscher,0.999976396560669,accept,resnet18_v1
+german_shorthaired_49.jpg,German Shorthaired,0.9973565340042114,accept,resnet18_v1
+Egyptian_Mau_80.jpg,Egyptian Mau,0.9179437756538391,accept,resnet18_v1
+wheaten_terrier_195.jpg,Samoyed,0.3230971693992615,abstain,resnet18_v1
+Ragdoll_245.jpg,Birman,0.7614415287971497,accept,resnet18_v1
+japanese_chin_66.jpg,Japanese Chin,0.9979633092880249,accept,resnet18_v1
+Russian_Blue_71.jpg,Russian Blue,0.9998241066932678,accept,resnet18_v1
+Bombay_70.jpg,Bombay,0.6135760545730591,abstain,resnet18_v1
+great_pyrenees_95.jpg,Great Pyrenees,0.97655189037323,accept,resnet18_v1
+havanese_96.jpg,Havanese,0.9998080134391785,accept,resnet18_v1
+leonberger_20.jpg,Leonberger,0.9991037249565125,accept,resnet18_v1
+saint_bernard_87.jpg,Saint Bernard,0.999809205532074,accept,resnet18_v1
+scottish_terrier_84.jpg,Scottish Terrier,0.8897479772567749,accept,resnet18_v1
+pomeranian_30.jpg,Shiba Inu,0.9629490375518799,accept,resnet18_v1
+Maine_Coon_270.jpg,Maine Coon,0.8932024240493774,accept,resnet18_v1
+Russian_Blue_50.jpg,Russian Blue,0.9525503516197205,accept,resnet18_v1
+havanese_99.jpg,Havanese,0.9974163770675659,accept,resnet18_v1
+saint_bernard_57.jpg,Saint Bernard,0.9940977096557617,accept,resnet18_v1
+saint_bernard_92.jpg,Saint Bernard,0.9797520041465759,accept,resnet18_v1
+german_shorthaired_57.jpg,German Shorthaired,0.9994457364082336,accept,resnet18_v1
+great_pyrenees_56.jpg,Great Pyrenees,0.9927621483802795,accept,resnet18_v1
+staffordshire_bull_terrier_90.jpg,Staffordshire Bull Terrier,0.9272027015686035,accept,resnet18_v1
+British_Shorthair_49.jpg,British Shorthair,0.9938894510269165,accept,resnet18_v1
+Sphynx_235.jpg,Sphynx,0.9184145331382751,accept,resnet18_v1
+havanese_88.jpg,Havanese,0.9955164790153503,accept,resnet18_v1
+Birman_43.jpg,Maine Coon,0.3799923062324524,abstain,resnet18_v1
+staffordshire_bull_terrier_36.jpg,Staffordshire Bull Terrier,0.6835523843765259,accept,resnet18_v1
+keeshond_24.jpg,Keeshond,0.9379637241363525,accept,resnet18_v1
+basset_hound_47.jpg,Basset Hound,0.9999581575393677,accept,resnet18_v1
+great_pyrenees_200.jpg,Great Pyrenees,0.9682603478431702,accept,resnet18_v1
+Russian_Blue_92.jpg,Russian Blue,0.9678454399108887,accept,resnet18_v1
+Bengal_79.jpg,Bengal,0.9365532398223877,accept,resnet18_v1
+beagle_199.jpg,Beagle,0.9723172783851624,accept,resnet18_v1
+Birman_45.jpg,Birman,0.9862160682678223,accept,resnet18_v1
+Egyptian_Mau_93.jpg,Egyptian Mau,0.9996501207351685,accept,resnet18_v1
+Persian_27.jpg,Maine Coon,0.3954753577709198,abstain,resnet18_v1
+Bombay_55.jpg,Bombay,0.9853931069374084,accept,resnet18_v1
+newfoundland_81.jpg,Newfoundland,0.8875832557678223,accept,resnet18_v1
+Russian_Blue_79.jpg,Russian Blue,0.9993442893028259,accept,resnet18_v1
+boxer_71.jpg,American Bulldog,0.6300643086433411,abstain,resnet18_v1
+boxer_61.jpg,Boxer,0.9775135517120361,accept,resnet18_v1
+japanese_chin_3.jpg,Japanese Chin,0.9935740828514099,accept,resnet18_v1
+leonberger_197.jpg,Leonberger,0.998017430305481,accept,resnet18_v1
+american_pit_bull_terrier_53.jpg,Staffordshire Bull Terrier,0.9114753007888794,accept,resnet18_v1
+german_shorthaired_24.jpg,German Shorthaired,0.9995125532150269,accept,resnet18_v1
+pomeranian_96.jpg,Pomeranian,0.9815143942832947,accept,resnet18_v1
+american_bulldog_95.jpg,American Bulldog,0.48000118136405945,abstain,resnet18_v1
+samoyed_36.jpg,Samoyed,0.9354038238525391,accept,resnet18_v1
+shiba_inu_63.jpg,Shiba Inu,0.9966205358505249,accept,resnet18_v1
+Russian_Blue_74.jpg,Russian Blue,0.9938149452209473,accept,resnet18_v1
+Sphynx_250.jpg,Bengal,0.4953329265117645,abstain,resnet18_v1
+Birman_94.jpg,Russian Blue,0.893596351146698,accept,resnet18_v1
+Egyptian_Mau_56.jpg,Egyptian Mau,0.9958949089050293,accept,resnet18_v1
+British_Shorthair_83.jpg,British Shorthair,0.9999407529830933,accept,resnet18_v1
+keeshond_23.jpg,Keeshond,0.9999203681945801,accept,resnet18_v1
+Abyssinian_80.jpg,Abyssinian,0.9988693594932556,accept,resnet18_v1
+havanese_78.jpg,Havanese,0.9996100068092346,accept,resnet18_v1
+american_bulldog_68.jpg,Saint Bernard,0.8274986743927002,accept,resnet18_v1
+shiba_inu_79.jpg,Shiba Inu,0.9999433755874634,accept,resnet18_v1
+yorkshire_terrier_42.jpg,Yorkshire Terrier,0.9999227523803711,accept,resnet18_v1
+great_pyrenees_67.jpg,Great Pyrenees,0.9732521176338196,accept,resnet18_v1
+beagle_83.jpg,Beagle,0.4597128927707672,abstain,resnet18_v1
+shiba_inu_55.jpg,Shiba Inu,0.9999653100967407,accept,resnet18_v1
+scottish_terrier_48.jpg,Scottish Terrier,0.6955329775810242,accept,resnet18_v1
+Egyptian_Mau_42.jpg,Egyptian Mau,0.9998515844345093,accept,resnet18_v1
+Persian_47.jpg,Persian,0.9984499216079712,accept,resnet18_v1
+miniature_pinscher_21.jpg,Miniature Pinscher,0.7062681317329407,accept,resnet18_v1
+Russian_Blue_43.jpg,Russian Blue,0.9618035554885864,accept,resnet18_v1
+shiba_inu_56.jpg,Shiba Inu,0.9986814856529236,accept,resnet18_v1
+Siamese_96.jpg,Siamese,0.9988077878952026,accept,resnet18_v1
+Sphynx_57.jpg,Sphynx,0.8779392838478088,accept,resnet18_v1
+english_setter_200.jpg,English Setter,0.99954754114151,accept,resnet18_v1
+newfoundland_65.jpg,Newfoundland,0.9983223080635071,accept,resnet18_v1
+american_bulldog_2.jpg,American Bulldog,0.6646640300750732,abstain,resnet18_v1
+Sphynx_76.jpg,Sphynx,0.9999291896820068,accept,resnet18_v1
+leonberger_52.jpg,Leonberger,0.9866902828216553,accept,resnet18_v1
+saint_bernard_196.jpg,Chihuahua,0.44880491495132446,abstain,resnet18_v1
+pug_93.jpg,Pug,0.48350781202316284,abstain,resnet18_v1
+Siamese_222.jpg,Chihuahua,0.40510594844818115,abstain,resnet18_v1
+english_setter_98.jpg,English Setter,0.9990835189819336,accept,resnet18_v1
+scottish_terrier_89.jpg,Scottish Terrier,0.9977444410324097,accept,resnet18_v1
+scottish_terrier_42.jpg,Scottish Terrier,0.9987058639526367,accept,resnet18_v1
+scottish_terrier_26.jpg,Scottish Terrier,0.7030209898948669,accept,resnet18_v1
+shiba_inu_4.jpg,Shiba Inu,0.9999374151229858,accept,resnet18_v1
+Sphynx_94.jpg,Sphynx,0.9992086291313171,accept,resnet18_v1
+saint_bernard_6.jpg,Saint Bernard,0.999869704246521,accept,resnet18_v1
+Russian_Blue_262.jpg,Russian Blue,0.8575314879417419,accept,resnet18_v1
+Egyptian_Mau_40.jpg,Egyptian Mau,0.7885717153549194,accept,resnet18_v1
+english_cocker_spaniel_43.jpg,English Cocker Spaniel,0.9993189573287964,accept,resnet18_v1
+yorkshire_terrier_8.jpg,Yorkshire Terrier,0.9999301433563232,accept,resnet18_v1
+japanese_chin_74.jpg,Japanese Chin,0.9982104301452637,accept,resnet18_v1
+german_shorthaired_45.jpg,German Shorthaired,0.9911085367202759,accept,resnet18_v1
+american_bulldog_50.jpg,American Bulldog,0.9004716277122498,accept,resnet18_v1
+pug_198.jpg,Pug,0.9999750852584839,accept,resnet18_v1
+saint_bernard_199.jpg,Saint Bernard,0.9944729208946228,accept,resnet18_v1
+american_pit_bull_terrier_76.jpg,Staffordshire Bull Terrier,0.41150298714637756,abstain,resnet18_v1
+beagle_82.jpg,Beagle,0.9557963609695435,accept,resnet18_v1
+Egyptian_Mau_34.jpg,Egyptian Mau,0.9987971782684326,accept,resnet18_v1
+samoyed_73.jpg,Samoyed,0.9964805245399475,accept,resnet18_v1
+german_shorthaired_47.jpg,German Shorthaired,0.9981162548065186,accept,resnet18_v1
+keeshond_28.jpg,Keeshond,0.9916118383407593,accept,resnet18_v1
+British_Shorthair_82.jpg,British Shorthair,0.5380567908287048,abstain,resnet18_v1
+scottish_terrier_8.jpg,Scottish Terrier,0.9999210834503174,accept,resnet18_v1
+Siamese_60.jpg,Siamese,0.9856923818588257,accept,resnet18_v1
+pomeranian_24.jpg,Pomeranian,0.9990310668945312,accept,resnet18_v1
+Birman_78.jpg,Birman,0.9920161962509155,accept,resnet18_v1
+samoyed_52.jpg,Samoyed,0.9703609347343445,accept,resnet18_v1
+Maine_Coon_265.jpg,Maine Coon,0.9759830236434937,accept,resnet18_v1
+Bombay_87.jpg,Bombay,0.9996784925460815,accept,resnet18_v1
+leonberger_37.jpg,Leonberger,0.9921144247055054,accept,resnet18_v1
+leonberger_67.jpg,Leonberger,0.9994837045669556,accept,resnet18_v1
+english_setter_195.jpg,English Setter,0.9882658123970032,accept,resnet18_v1
+english_cocker_spaniel_87.jpg,English Cocker Spaniel,0.974740743637085,accept,resnet18_v1
+Egyptian_Mau_7.jpg,Egyptian Mau,0.9999322891235352,accept,resnet18_v1
+Egyptian_Mau_60.jpg,Egyptian Mau,0.9998278617858887,accept,resnet18_v1
+american_pit_bull_terrier_42.jpg,Staffordshire Bull Terrier,0.8722206950187683,accept,resnet18_v1
+great_pyrenees_82.jpg,Great Pyrenees,0.9767061471939087,accept,resnet18_v1
+havanese_21.jpg,Havanese,0.7768734693527222,accept,resnet18_v1
+wheaten_terrier_89.jpg,Wheaten Terrier,0.9971578121185303,accept,resnet18_v1
+american_bulldog_28.jpg,American Bulldog,0.5430944561958313,abstain,resnet18_v1
+english_setter_8.jpg,Saint Bernard,0.2856011688709259,abstain,resnet18_v1
+yorkshire_terrier_48.jpg,Yorkshire Terrier,0.9772575497627258,accept,resnet18_v1
+Birman_201.jpg,Birman,0.8991559743881226,accept,resnet18_v1
+american_pit_bull_terrier_72.jpg,American Pit Bull Terrier,0.7345518469810486,accept,resnet18_v1
+beagle_4.jpg,Miniature Pinscher,0.704356849193573,accept,resnet18_v1
+basset_hound_199.jpg,Basset Hound,0.9004085659980774,accept,resnet18_v1
+Maine_Coon_222.jpg,Maine Coon,0.981618344783783,accept,resnet18_v1
+Persian_255.jpg,Persian,0.44143420457839966,abstain,resnet18_v1
+Bombay_60.jpg,Bombay,0.9936947226524353,accept,resnet18_v1
+american_bulldog_92.jpg,American Bulldog,0.4686111807823181,abstain,resnet18_v1
+scottish_terrier_198.jpg,Scottish Terrier,0.9988747239112854,accept,resnet18_v1
+British_Shorthair_90.jpg,British Shorthair,0.9999629259109497,accept,resnet18_v1
+Persian_34.jpg,Persian,0.9769679307937622,accept,resnet18_v1
+leonberger_51.jpg,Leonberger,0.9969033598899841,accept,resnet18_v1
+american_pit_bull_terrier_197.jpg,American Pit Bull Terrier,0.7890617847442627,accept,resnet18_v1
+american_bulldog_80.jpg,American Bulldog,0.5117992758750916,abstain,resnet18_v1
+american_bulldog_35.jpg,Boxer,0.42677390575408936,abstain,resnet18_v1
+chihuahua_71.jpg,Chihuahua,0.9832465052604675,accept,resnet18_v1
+Birman_44.jpg,Birman,0.6165828704833984,abstain,resnet18_v1
+boxer_57.jpg,Basset Hound,0.35836413502693176,abstain,resnet18_v1
+Bengal_41.jpg,Bengal,0.971381664276123,accept,resnet18_v1
+Bombay_24.jpg,Bombay,0.9986593723297119,accept,resnet18_v1
+Ragdoll_57.jpg,Ragdoll,0.449318528175354,abstain,resnet18_v1
+pomeranian_6.jpg,Pomeranian,0.9998277425765991,accept,resnet18_v1
+Siamese_210.jpg,Siamese,0.9998602867126465,accept,resnet18_v1
+pug_196.jpg,Pug,0.992161214351654,accept,resnet18_v1
+British_Shorthair_9.jpg,Abyssinian,0.9997767806053162,accept,resnet18_v1
+Bombay_57.jpg,Bombay,0.9987314343452454,accept,resnet18_v1
+Birman_57.jpg,Siamese,0.8597487211227417,accept,resnet18_v1
+Birman_200.jpg,Birman,0.9695935249328613,accept,resnet18_v1
+Siamese_6.jpg,Siamese,0.978427529335022,accept,resnet18_v1
+shiba_inu_41.jpg,Shiba Inu,0.9994495511054993,accept,resnet18_v1
+keeshond_29.jpg,Keeshond,0.99955815076828,accept,resnet18_v1
+chihuahua_55.jpg,Miniature Pinscher,0.9510186314582825,accept,resnet18_v1
+chihuahua_48.jpg,Chihuahua,0.9997122883796692,accept,resnet18_v1
+Bombay_58.jpg,Bombay,0.9307853579521179,accept,resnet18_v1
+american_pit_bull_terrier_23.jpg,American Pit Bull Terrier,0.3143697679042816,abstain,resnet18_v1
+newfoundland_82.jpg,Newfoundland,0.9954115748405457,accept,resnet18_v1
+Bengal_97.jpg,Bengal,0.9777235388755798,accept,resnet18_v1
+havanese_200.jpg,Havanese,0.9906967878341675,accept,resnet18_v1
+Siamese_257.jpg,Birman,0.8823032975196838,accept,resnet18_v1
+beagle_53.jpg,Beagle,0.9334412813186646,accept,resnet18_v1
+leonberger_57.jpg,Leonberger,0.987006425857544,accept,resnet18_v1
+pomeranian_83.jpg,Pomeranian,0.9994232654571533,accept,resnet18_v1
+havanese_1.jpg,Havanese,0.9868965744972229,accept,resnet18_v1
+keeshond_7.jpg,Keeshond,0.9998041987419128,accept,resnet18_v1
+basset_hound_79.jpg,Basset Hound,0.8895952105522156,accept,resnet18_v1
+boxer_50.jpg,Boxer,0.998847484588623,accept,resnet18_v1
+Russian_Blue_237.jpg,Russian Blue,0.5521111488342285,abstain,resnet18_v1
+newfoundland_45.jpg,Newfoundland,0.9856162071228027,accept,resnet18_v1
+Sphynx_34.jpg,Sphynx,0.8240081071853638,accept,resnet18_v1
+Persian_63.jpg,Persian,0.998761773109436,accept,resnet18_v1
+Abyssinian_217.jpg,Abyssinian,0.8816722631454468,accept,resnet18_v1
+american_bulldog_65.jpg,Saint Bernard,0.9696772694587708,accept,resnet18_v1
+saint_bernard_53.jpg,Saint Bernard,0.9999339580535889,accept,resnet18_v1
+Abyssinian_79.jpg,Abyssinian,0.9971402883529663,accept,resnet18_v1
+leonberger_3.jpg,Leonberger,0.9898595213890076,accept,resnet18_v1
+British_Shorthair_265.jpg,British Shorthair,0.8981349468231201,accept,resnet18_v1
+english_setter_73.jpg,English Setter,0.8945570588111877,accept,resnet18_v1
+Russian_Blue_51.jpg,Russian Blue,0.9935437440872192,accept,resnet18_v1
+Maine_Coon_94.jpg,Abyssinian,0.7733259797096252,accept,resnet18_v1
+pug_81.jpg,Pug,0.45493990182876587,abstain,resnet18_v1
+english_cocker_spaniel_83.jpg,English Cocker Spaniel,0.5692042708396912,abstain,resnet18_v1
+Abyssinian_97.jpg,Abyssinian,0.6865956783294678,accept,resnet18_v1
+keeshond_57.jpg,Keeshond,0.9945942759513855,accept,resnet18_v1
+great_pyrenees_191.jpg,Great Pyrenees,0.9800485372543335,accept,resnet18_v1
+miniature_pinscher_19.jpg,Miniature Pinscher,0.9999315738677979,accept,resnet18_v1
+wheaten_terrier_191.jpg,Wheaten Terrier,0.9991803765296936,accept,resnet18_v1
+boxer_7.jpg,Boxer,0.9880334138870239,accept,resnet18_v1
+chihuahua_60.jpg,Chihuahua,0.9269134998321533,accept,resnet18_v1
+english_cocker_spaniel_38.jpg,English Cocker Spaniel,0.9715178608894348,accept,resnet18_v1
+Persian_263.jpg,Persian,0.669014573097229,accept,resnet18_v1
+saint_bernard_86.jpg,Saint Bernard,0.9997133612632751,accept,resnet18_v1
+english_cocker_spaniel_68.jpg,English Cocker Spaniel,0.8505226373672485,accept,resnet18_v1
+Egyptian_Mau_204.jpg,Egyptian Mau,0.6909228563308716,accept,resnet18_v1
+great_pyrenees_29.jpg,Shiba Inu,0.7229085564613342,accept,resnet18_v1
+boxer_99.jpg,Boxer,0.9840238094329834,accept,resnet18_v1
+Russian_Blue_99.jpg,Russian Blue,0.8974651098251343,accept,resnet18_v1
+Maine_Coon_266.jpg,Maine Coon,0.9951666593551636,accept,resnet18_v1
+Siamese_254.jpg,Siamese,0.604962944984436,abstain,resnet18_v1
+saint_bernard_77.jpg,Saint Bernard,0.9992150068283081,accept,resnet18_v1
+shiba_inu_64.jpg,Shiba Inu,0.9999587535858154,accept,resnet18_v1
+japanese_chin_85.jpg,Japanese Chin,0.9995244741439819,accept,resnet18_v1
+scottish_terrier_23.jpg,Scottish Terrier,0.9974393844604492,accept,resnet18_v1
+leonberger_4.jpg,Leonberger,0.9947041869163513,accept,resnet18_v1
+great_pyrenees_26.jpg,Great Pyrenees,0.7221550941467285,accept,resnet18_v1
+german_shorthaired_86.jpg,German Shorthaired,0.9999314546585083,accept,resnet18_v1
+Bengal_22.jpg,Bengal,0.9272363185882568,accept,resnet18_v1
+scottish_terrier_67.jpg,Scottish Terrier,0.9999748468399048,accept,resnet18_v1
+pug_5.jpg,Pug,0.9870882034301758,accept,resnet18_v1
+yorkshire_terrier_71.jpg,Yorkshire Terrier,0.7625894546508789,accept,resnet18_v1
+saint_bernard_98.jpg,Saint Bernard,0.9989960789680481,accept,resnet18_v1
+scottish_terrier_35.jpg,Scottish Terrier,0.997982382774353,accept,resnet18_v1
+american_bulldog_23.jpg,American Bulldog,0.70450758934021,accept,resnet18_v1
+Birman_47.jpg,Siamese,0.8785369396209717,accept,resnet18_v1
+german_shorthaired_67.jpg,German Shorthaired,0.9979580640792847,accept,resnet18_v1
+Abyssinian_225.jpg,Abyssinian,0.989523708820343,accept,resnet18_v1
+pug_19.jpg,Pug,0.9958251714706421,accept,resnet18_v1
+Ragdoll_250.jpg,Ragdoll,0.732989490032196,accept,resnet18_v1
+basset_hound_36.jpg,Basset Hound,0.9995545744895935,accept,resnet18_v1
+saint_bernard_19.jpg,Saint Bernard,0.9669395685195923,accept,resnet18_v1
+beagle_84.jpg,Basset Hound,0.5336599349975586,abstain,resnet18_v1
+Bombay_88.jpg,Bombay,0.9998382329940796,accept,resnet18_v1
+Abyssinian_61.jpg,Abyssinian,0.8404161334037781,accept,resnet18_v1
+Sphynx_213.jpg,Bengal,0.5598262548446655,abstain,resnet18_v1
+english_setter_64.jpg,English Setter,0.9993835687637329,accept,resnet18_v1
+Ragdoll_8.jpg,Ragdoll,0.969113290309906,accept,resnet18_v1
+samoyed_81.jpg,Samoyed,0.8170760869979858,accept,resnet18_v1
+english_setter_26.jpg,English Setter,0.9460033178329468,accept,resnet18_v1
+Abyssinian_20.jpg,Abyssinian,0.8396726846694946,accept,resnet18_v1
+newfoundland_87.jpg,Newfoundland,0.9831779599189758,accept,resnet18_v1
+boxer_67.jpg,Boxer,0.6350173950195312,abstain,resnet18_v1
+miniature_pinscher_46.jpg,Miniature Pinscher,0.8743953704833984,accept,resnet18_v1
+boxer_53.jpg,Boxer,0.9941599369049072,accept,resnet18_v1
+Sphynx_252.jpg,Sphynx,0.9958246946334839,accept,resnet18_v1
+german_shorthaired_38.jpg,German Shorthaired,0.9999622106552124,accept,resnet18_v1
+english_cocker_spaniel_4.jpg,English Cocker Spaniel,0.9905894994735718,accept,resnet18_v1
+Siamese_99.jpg,Siamese,0.9999821186065674,accept,resnet18_v1
+yorkshire_terrier_57.jpg,Yorkshire Terrier,0.9998974800109863,accept,resnet18_v1
+Persian_267.jpg,Maine Coon,0.5765625238418579,abstain,resnet18_v1
+Maine_Coon_39.jpg,Maine Coon,0.9999861717224121,accept,resnet18_v1
+saint_bernard_46.jpg,Saint Bernard,0.9973049163818359,accept,resnet18_v1
+boxer_36.jpg,German Shorthaired,0.2962748110294342,abstain,resnet18_v1
+japanese_chin_36.jpg,Japanese Chin,0.9925722479820251,accept,resnet18_v1
+newfoundland_42.jpg,Newfoundland,0.4535368084907532,abstain,resnet18_v1
+newfoundland_26.jpg,Newfoundland,0.751641571521759,accept,resnet18_v1
+american_bulldog_82.jpg,American Bulldog,0.8732231855392456,accept,resnet18_v1
+keeshond_66.jpg,Keeshond,0.9966700673103333,accept,resnet18_v1
+Bengal_199.jpg,Bengal,0.9945665597915649,accept,resnet18_v1
+great_pyrenees_1.jpg,Great Pyrenees,0.9982903599739075,accept,resnet18_v1
+Maine_Coon_87.jpg,Maine Coon,0.7695736885070801,accept,resnet18_v1
+Ragdoll_87.jpg,Ragdoll,0.9373905658721924,accept,resnet18_v1
+Ragdoll_60.jpg,Siamese,0.603485643863678,abstain,resnet18_v1
+newfoundland_95.jpg,Newfoundland,0.5716655850410461,abstain,resnet18_v1
+havanese_90.jpg,Havanese,0.9121479392051697,accept,resnet18_v1
+Persian_43.jpg,Persian,0.9998619556427002,accept,resnet18_v1
+Persian_87.jpg,Persian,0.9999481439590454,accept,resnet18_v1
+Bengal_25.jpg,Bengal,0.821502149105072,accept,resnet18_v1
+newfoundland_29.jpg,Newfoundland,0.7858943343162537,accept,resnet18_v1
+staffordshire_bull_terrier_7.jpg,Staffordshire Bull Terrier,0.6754474639892578,accept,resnet18_v1
+staffordshire_bull_terrier_85.jpg,Staffordshire Bull Terrier,0.34223589301109314,abstain,resnet18_v1
+Abyssinian_99.jpg,Abyssinian,0.9980369210243225,accept,resnet18_v1
+pug_76.jpg,Saint Bernard,0.303084135055542,abstain,resnet18_v1
+basset_hound_76.jpg,Basset Hound,0.5755265355110168,abstain,resnet18_v1
+leonberger_97.jpg,Leonberger,0.9987574815750122,accept,resnet18_v1
+scottish_terrier_191.jpg,Scottish Terrier,0.9965536594390869,accept,resnet18_v1
+pomeranian_37.jpg,Pomeranian,0.7843930125236511,accept,resnet18_v1
+japanese_chin_191.jpg,Japanese Chin,0.9766592979431152,accept,resnet18_v1
+wheaten_terrier_26.jpg,Wheaten Terrier,0.9866655468940735,accept,resnet18_v1
+pug_85.jpg,Pug,0.9942307472229004,accept,resnet18_v1
+shiba_inu_25.jpg,Shiba Inu,0.8160367608070374,accept,resnet18_v1
+staffordshire_bull_terrier_9.jpg,American Bulldog,0.45671895146369934,abstain,resnet18_v1
+newfoundland_191.jpg,Newfoundland,0.9287623167037964,accept,resnet18_v1
+Ragdoll_29.jpg,Birman,0.6854334473609924,accept,resnet18_v1
+english_cocker_spaniel_55.jpg,English Cocker Spaniel,0.9995393753051758,accept,resnet18_v1
+keeshond_199.jpg,Keeshond,0.9999852180480957,accept,resnet18_v1
+yorkshire_terrier_7.jpg,Yorkshire Terrier,0.9769639372825623,accept,resnet18_v1
+yorkshire_terrier_74.jpg,Yorkshire Terrier,0.8730933666229248,accept,resnet18_v1
+german_shorthaired_34.jpg,German Shorthaired,0.9999890327453613,accept,resnet18_v1
+beagle_63.jpg,Beagle,0.9185218811035156,accept,resnet18_v1
+wheaten_terrier_9.jpg,Wheaten Terrier,0.9769166111946106,accept,resnet18_v1
+japanese_chin_67.jpg,Japanese Chin,0.9319308996200562,accept,resnet18_v1
+japanese_chin_82.jpg,Japanese Chin,0.9533271789550781,accept,resnet18_v1
+chihuahua_30.jpg,Chihuahua,0.8758442997932434,accept,resnet18_v1
+boxer_1.jpg,Boxer,0.9905920624732971,accept,resnet18_v1
+japanese_chin_37.jpg,Japanese Chin,0.954356849193573,accept,resnet18_v1
+Ragdoll_4.jpg,Ragdoll,0.9974195957183838,accept,resnet18_v1
+Abyssinian_206.jpg,Abyssinian,0.7106520533561707,accept,resnet18_v1
+japanese_chin_39.jpg,Japanese Chin,0.9964737296104431,accept,resnet18_v1
+Sphynx_4.jpg,Sphynx,0.9848563075065613,accept,resnet18_v1
+Abyssinian_48.jpg,Abyssinian,0.5346195101737976,abstain,resnet18_v1
+english_cocker_spaniel_23.jpg,English Cocker Spaniel,0.9989157915115356,accept,resnet18_v1
+Siamese_85.jpg,Siamese,0.9981517195701599,accept,resnet18_v1
+german_shorthaired_58.jpg,German Shorthaired,0.9435958862304688,accept,resnet18_v1
+samoyed_78.jpg,Samoyed,0.6727690696716309,accept,resnet18_v1
+yorkshire_terrier_58.jpg,Yorkshire Terrier,0.9986878037452698,accept,resnet18_v1
+chihuahua_78.jpg,Chihuahua,0.9346901178359985,accept,resnet18_v1
+american_pit_bull_terrier_201.jpg,American Pit Bull Terrier,0.9986621141433716,accept,resnet18_v1
+boxer_31.jpg,Boxer,0.9909432530403137,accept,resnet18_v1
+chihuahua_50.jpg,Chihuahua,0.9266653060913086,accept,resnet18_v1
+wheaten_terrier_69.jpg,Abyssinian,0.7007595896720886,accept,resnet18_v1
+scottish_terrier_36.jpg,Scottish Terrier,0.9999598264694214,accept,resnet18_v1
+Ragdoll_258.jpg,Pomeranian,0.6922101378440857,accept,resnet18_v1
+saint_bernard_74.jpg,Saint Bernard,0.9851557612419128,accept,resnet18_v1
+Bengal_99.jpg,Bengal,0.9951523542404175,accept,resnet18_v1
+basset_hound_63.jpg,Basset Hound,0.9397501349449158,accept,resnet18_v1
+leonberger_66.jpg,Leonberger,0.9998946189880371,accept,resnet18_v1
+basset_hound_95.jpg,Basset Hound,0.9997908473014832,accept,resnet18_v1
+samoyed_29.jpg,Samoyed,0.999774158000946,accept,resnet18_v1
+chihuahua_97.jpg,Chihuahua,0.9974899291992188,accept,resnet18_v1
+Bengal_84.jpg,Bengal,0.9872157573699951,accept,resnet18_v1
+miniature_pinscher_2.jpg,Miniature Pinscher,0.9997814297676086,accept,resnet18_v1
+miniature_pinscher_68.jpg,Miniature Pinscher,0.9999603033065796,accept,resnet18_v1
+Bombay_3.jpg,Bombay,0.9996517896652222,accept,resnet18_v1
+pug_43.jpg,Pug,0.9971193075180054,accept,resnet18_v1
+British_Shorthair_29.jpg,British Shorthair,0.9991581439971924,accept,resnet18_v1
+english_setter_56.jpg,English Setter,0.9998278617858887,accept,resnet18_v1
+British_Shorthair_86.jpg,British Shorthair,0.9977304339408875,accept,resnet18_v1
+pug_63.jpg,Pug,0.9948810338973999,accept,resnet18_v1
+newfoundland_7.jpg,Newfoundland,0.9998869895935059,accept,resnet18_v1
+samoyed_9.jpg,Samoyed,0.6482872366905212,abstain,resnet18_v1
+Abyssinian_76.jpg,Abyssinian,0.5610432028770447,abstain,resnet18_v1
+japanese_chin_68.jpg,Japanese Chin,0.9980844259262085,accept,resnet18_v1
+pomeranian_28.jpg,Pomeranian,0.9999436140060425,accept,resnet18_v1
+american_bulldog_224.jpg,American Bulldog,0.5410292744636536,abstain,resnet18_v1
+shiba_inu_66.jpg,Shiba Inu,0.9970935583114624,accept,resnet18_v1
+Bombay_20.jpg,Bombay,0.9999743700027466,accept,resnet18_v1
+Bombay_41.jpg,Bombay,0.9873517751693726,accept,resnet18_v1
+newfoundland_96.jpg,Newfoundland,0.9996436834335327,accept,resnet18_v1
+japanese_chin_76.jpg,Japanese Chin,0.9978474378585815,accept,resnet18_v1
+Bengal_31.jpg,Bengal,0.9132989645004272,accept,resnet18_v1
+Persian_62.jpg,Persian,0.9968352913856506,accept,resnet18_v1
+Abyssinian_74.jpg,Abyssinian,0.9961827397346497,accept,resnet18_v1
+pomeranian_95.jpg,Pomeranian,0.9988025426864624,accept,resnet18_v1
+american_bulldog_84.jpg,American Bulldog,0.9668057560920715,accept,resnet18_v1
+Ragdoll_37.jpg,Ragdoll,0.9994283318519592,accept,resnet18_v1
+havanese_48.jpg,Yorkshire Terrier,0.9246525764465332,accept,resnet18_v1
+japanese_chin_79.jpg,Japanese Chin,0.9983111619949341,accept,resnet18_v1
+basset_hound_58.jpg,Basset Hound,0.5800656676292419,abstain,resnet18_v1
+Egyptian_Mau_20.jpg,Egyptian Mau,0.9838063716888428,accept,resnet18_v1
+beagle_93.jpg,Beagle,0.9969781637191772,accept,resnet18_v1
+chihuahua_52.jpg,Chihuahua,0.9268638491630554,accept,resnet18_v1
+British_Shorthair_71.jpg,British Shorthair,0.9971988201141357,accept,resnet18_v1
+havanese_53.jpg,Havanese,0.9853602051734924,accept,resnet18_v1
+great_pyrenees_62.jpg,Great Pyrenees,0.9883842468261719,accept,resnet18_v1
+great_pyrenees_83.jpg,Samoyed,0.6554575562477112,abstain,resnet18_v1
+chihuahua_4.jpg,Chihuahua,0.4081507921218872,abstain,resnet18_v1
+english_cocker_spaniel_80.jpg,English Cocker Spaniel,0.999570906162262,accept,resnet18_v1
+Maine_Coon_245.jpg,Maine Coon,0.9969863295555115,accept,resnet18_v1
+english_cocker_spaniel_66.jpg,English Cocker Spaniel,0.9986194372177124,accept,resnet18_v1
+keeshond_95.jpg,Keeshond,0.9926387071609497,accept,resnet18_v1
+newfoundland_76.jpg,Newfoundland,0.47222432494163513,abstain,resnet18_v1
+boxer_83.jpg,Boxer,0.9737352132797241,accept,resnet18_v1
+Ragdoll_83.jpg,Ragdoll,0.9988523721694946,accept,resnet18_v1
+Birman_30.jpg,Birman,0.7276198863983154,accept,resnet18_v1
+Siamese_31.jpg,Siamese,0.9997321963310242,accept,resnet18_v1
+Maine_Coon_267.jpg,Abyssinian,0.5025660395622253,abstain,resnet18_v1
+keeshond_51.jpg,Keeshond,0.9995099306106567,accept,resnet18_v1
+yorkshire_terrier_82.jpg,Yorkshire Terrier,0.9984408020973206,accept,resnet18_v1
+newfoundland_8.jpg,Newfoundland,0.9996658563613892,accept,resnet18_v1
+wheaten_terrier_77.jpg,Havanese,0.43183374404907227,abstain,resnet18_v1
+american_pit_bull_terrier_33.jpg,American Pit Bull Terrier,0.901445746421814,accept,resnet18_v1
+staffordshire_bull_terrier_43.jpg,Staffordshire Bull Terrier,0.5203197598457336,abstain,resnet18_v1
+Russian_Blue_89.jpg,Russian Blue,0.9931875467300415,accept,resnet18_v1
+basset_hound_9.jpg,Basset Hound,0.9662232398986816,accept,resnet18_v1
+Sphynx_211.jpg,Chihuahua,0.8887555599212646,accept,resnet18_v1
+miniature_pinscher_98.jpg,Miniature Pinscher,0.6928845047950745,accept,resnet18_v1
+staffordshire_bull_terrier_59.jpg,Staffordshire Bull Terrier,0.6840174794197083,accept,resnet18_v1
+Siamese_72.jpg,Siamese,0.932261049747467,accept,resnet18_v1
+wheaten_terrier_4.jpg,Wheaten Terrier,0.9050912857055664,accept,resnet18_v1
+english_cocker_spaniel_3.jpg,English Cocker Spaniel,0.9999068975448608,accept,resnet18_v1
+leonberger_71.jpg,Leonberger,0.9982852339744568,accept,resnet18_v1
+german_shorthaired_52.jpg,German Shorthaired,0.9916383624076843,accept,resnet18_v1
+english_cocker_spaniel_7.jpg,English Cocker Spaniel,0.9782682061195374,accept,resnet18_v1
+saint_bernard_54.jpg,Saint Bernard,0.9999443292617798,accept,resnet18_v1
+samoyed_6.jpg,Samoyed,0.990128219127655,accept,resnet18_v1
+Bombay_64.jpg,Bombay,0.9952629804611206,accept,resnet18_v1
+havanese_42.jpg,Havanese,0.9950717091560364,accept,resnet18_v1
+boxer_68.jpg,Boxer,0.9850463271141052,accept,resnet18_v1
+boxer_39.jpg,Boxer,0.693812906742096,accept,resnet18_v1
+japanese_chin_54.jpg,Japanese Chin,0.9931875467300415,accept,resnet18_v1
+miniature_pinscher_26.jpg,Miniature Pinscher,0.9999690055847168,accept,resnet18_v1
+shiba_inu_82.jpg,Shiba Inu,0.7575604915618896,accept,resnet18_v1
+wheaten_terrier_23.jpg,Wheaten Terrier,0.912699282169342,accept,resnet18_v1
+shiba_inu_3.jpg,Shiba Inu,0.9999256134033203,accept,resnet18_v1
+basset_hound_23.jpg,Basset Hound,0.986178994178772,accept,resnet18_v1
+leonberger_56.jpg,Leonberger,0.9925520420074463,accept,resnet18_v1
+leonberger_80.jpg,Leonberger,0.8952867984771729,accept,resnet18_v1
+german_shorthaired_89.jpg,German Shorthaired,0.9997316002845764,accept,resnet18_v1
+scottish_terrier_32.jpg,Scottish Terrier,0.9971476197242737,accept,resnet18_v1
+Bengal_37.jpg,Bengal,0.9161766767501831,accept,resnet18_v1
+Birman_70.jpg,Birman,0.9943190217018127,accept,resnet18_v1
+Persian_90.jpg,Persian,0.9602729082107544,accept,resnet18_v1
+basset_hound_27.jpg,Basset Hound,0.9790270328521729,accept,resnet18_v1
+keeshond_74.jpg,Pomeranian,0.708715558052063,accept,resnet18_v1
+Bombay_42.jpg,Staffordshire Bull Terrier,0.31936126947402954,abstain,resnet18_v1
+British_Shorthair_31.jpg,British Shorthair,0.8653920888900757,accept,resnet18_v1
+english_setter_82.jpg,English Setter,0.9998868703842163,accept,resnet18_v1
+yorkshire_terrier_38.jpg,Yorkshire Terrier,0.9999912977218628,accept,resnet18_v1
+pomeranian_38.jpg,Newfoundland,0.6722164750099182,accept,resnet18_v1
+Ragdoll_33.jpg,Ragdoll,0.9973607659339905,accept,resnet18_v1
+scottish_terrier_6.jpg,Scottish Terrier,0.968182384967804,accept,resnet18_v1
+Bengal_77.jpg,Bengal,0.9709531664848328,accept,resnet18_v1
+american_pit_bull_terrier_70.jpg,American Pit Bull Terrier,0.6155440211296082,abstain,resnet18_v1
+beagle_201.jpg,Beagle,0.9987286925315857,accept,resnet18_v1
+staffordshire_bull_terrier_23.jpg,Boxer,0.7641707062721252,accept,resnet18_v1
+Siamese_228.jpg,Birman,0.7987524271011353,accept,resnet18_v1
+Russian_Blue_253.jpg,Chihuahua,0.5138158798217773,abstain,resnet18_v1
+Siamese_40.jpg,Siamese,0.990134060382843,accept,resnet18_v1
+newfoundland_55.jpg,Newfoundland,0.978865385055542,accept,resnet18_v1
+american_bulldog_203.jpg,American Bulldog,0.9848651885986328,accept,resnet18_v1
+British_Shorthair_270.jpg,British Shorthair,0.7400186657905579,accept,resnet18_v1
+Egyptian_Mau_29.jpg,Bengal,0.6853822469711304,accept,resnet18_v1
+Persian_95.jpg,Persian,0.9552797079086304,accept,resnet18_v1
+boxer_56.jpg,Boxer,0.7044674158096313,accept,resnet18_v1
+Sphynx_229.jpg,Sphynx,0.957608699798584,accept,resnet18_v1
+leonberger_65.jpg,Leonberger,0.9998748302459717,accept,resnet18_v1
+shiba_inu_31.jpg,Shiba Inu,0.997296154499054,accept,resnet18_v1
+miniature_pinscher_65.jpg,Miniature Pinscher,0.999932050704956,accept,resnet18_v1
+american_pit_bull_terrier_19.jpg,Staffordshire Bull Terrier,0.781486988067627,accept,resnet18_v1
+american_bulldog_26.jpg,American Bulldog,0.9968806505203247,accept,resnet18_v1
+Maine_Coon_97.jpg,Maine Coon,0.9954566955566406,accept,resnet18_v1
+yorkshire_terrier_95.jpg,Yorkshire Terrier,0.6414992809295654,abstain,resnet18_v1
+pug_3.jpg,Pug,0.9994702935218811,accept,resnet18_v1
+pomeranian_86.jpg,Pomeranian,0.9993401169776917,accept,resnet18_v1
+japanese_chin_1.jpg,Japanese Chin,0.9993619322776794,accept,resnet18_v1
+basset_hound_70.jpg,Basset Hound,0.9996219873428345,accept,resnet18_v1
+newfoundland_80.jpg,Newfoundland,0.999286949634552,accept,resnet18_v1
+basset_hound_45.jpg,Basset Hound,0.9828762412071228,accept,resnet18_v1
+havanese_55.jpg,Havanese,0.9983698725700378,accept,resnet18_v1
+japanese_chin_81.jpg,Japanese Chin,0.9811866283416748,accept,resnet18_v1
+miniature_pinscher_194.jpg,Chihuahua,0.707004725933075,accept,resnet18_v1
+keeshond_64.jpg,Keeshond,0.998449444770813,accept,resnet18_v1
+american_bulldog_46.jpg,American Bulldog,0.9973451495170593,accept,resnet18_v1
+newfoundland_32.jpg,Newfoundland,0.7072787284851074,accept,resnet18_v1
+boxer_87.jpg,Boxer,0.9836275577545166,accept,resnet18_v1
+Bombay_80.jpg,Bombay,0.9999707937240601,accept,resnet18_v1
+British_Shorthair_273.jpg,British Shorthair,0.9999548196792603,accept,resnet18_v1
+german_shorthaired_75.jpg,German Shorthaired,0.9999642372131348,accept,resnet18_v1
+wheaten_terrier_42.jpg,Wheaten Terrier,0.6015822887420654,abstain,resnet18_v1
+Maine_Coon_92.jpg,Maine Coon,0.9907270669937134,accept,resnet18_v1
+english_setter_47.jpg,English Setter,0.9929938912391663,accept,resnet18_v1
+Bombay_43.jpg,Bombay,0.9998395442962646,accept,resnet18_v1
+Bengal_87.jpg,Egyptian Mau,0.7033246159553528,accept,resnet18_v1
+Maine_Coon_77.jpg,Maine Coon,0.7474704384803772,accept,resnet18_v1
+saint_bernard_47.jpg,Saint Bernard,0.9884029030799866,accept,resnet18_v1
+Birman_4.jpg,Birman,0.666360080242157,abstain,resnet18_v1
+boxer_47.jpg,Boxer,0.9701808094978333,accept,resnet18_v1
+keeshond_45.jpg,Keeshond,0.998256504535675,accept,resnet18_v1
+leonberger_24.jpg,Leonberger,0.9991624355316162,accept,resnet18_v1
+english_setter_7.jpg,English Setter,0.9619699716567993,accept,resnet18_v1
+pomeranian_33.jpg,Pomeranian,0.9961447715759277,accept,resnet18_v1
+saint_bernard_194.jpg,Saint Bernard,0.9950553178787231,accept,resnet18_v1
+great_pyrenees_37.jpg,Great Pyrenees,0.982667863368988,accept,resnet18_v1
+yorkshire_terrier_66.jpg,Yorkshire Terrier,0.988854169845581,accept,resnet18_v1
+beagle_95.jpg,Beagle,0.4167560636997223,abstain,resnet18_v1
+american_bulldog_85.jpg,American Bulldog,0.9012516736984253,accept,resnet18_v1
+Russian_Blue_20.jpg,Russian Blue,0.9790727496147156,accept,resnet18_v1
+Birman_40.jpg,Siamese,0.5087209939956665,abstain,resnet18_v1
+boxer_65.jpg,Boxer,0.9021912813186646,accept,resnet18_v1
+havanese_51.jpg,Havanese,0.984807014465332,accept,resnet18_v1
+basset_hound_89.jpg,Basset Hound,0.9972930550575256,accept,resnet18_v1
+Persian_8.jpg,Persian,0.9999297857284546,accept,resnet18_v1
+beagle_76.jpg,Beagle,0.9675946235656738,accept,resnet18_v1
+leonberger_43.jpg,Leonberger,0.9999934434890747,accept,resnet18_v1
+pomeranian_40.jpg,Pomeranian,0.3291183412075043,abstain,resnet18_v1
+great_pyrenees_93.jpg,Great Pyrenees,0.9887917041778564,accept,resnet18_v1
+leonberger_92.jpg,Leonberger,0.9986979961395264,accept,resnet18_v1
+german_shorthaired_44.jpg,German Shorthaired,0.9919543862342834,accept,resnet18_v1
+saint_bernard_84.jpg,Saint Bernard,0.999747097492218,accept,resnet18_v1
+pomeranian_43.jpg,Pomeranian,0.9956320524215698,accept,resnet18_v1
+Egyptian_Mau_85.jpg,Bengal,0.7722285389900208,accept,resnet18_v1
+shiba_inu_20.jpg,Shiba Inu,0.9999754428863525,accept,resnet18_v1
+staffordshire_bull_terrier_75.jpg,American Pit Bull Terrier,0.6577866077423096,abstain,resnet18_v1
+leonberger_8.jpg,Leonberger,0.9946569204330444,accept,resnet18_v1
+german_shorthaired_59.jpg,German Shorthaired,0.9999127388000488,accept,resnet18_v1
+yorkshire_terrier_32.jpg,Yorkshire Terrier,0.9970965385437012,accept,resnet18_v1
+wheaten_terrier_68.jpg,Wheaten Terrier,0.6742308139801025,accept,resnet18_v1
+Persian_268.jpg,Pomeranian,0.37923601269721985,abstain,resnet18_v1
+chihuahua_3.jpg,Chihuahua,0.6730394959449768,accept,resnet18_v1
+japanese_chin_196.jpg,Japanese Chin,0.9961704611778259,accept,resnet18_v1
+german_shorthaired_96.jpg,German Shorthaired,0.9999995231628418,accept,resnet18_v1
+Birman_34.jpg,Siamese,0.7114267945289612,accept,resnet18_v1
+Sphynx_53.jpg,American Bulldog,0.49994176626205444,abstain,resnet18_v1
+english_setter_9.jpg,English Setter,0.9981223940849304,accept,resnet18_v1
+american_pit_bull_terrier_37.jpg,German Shorthaired,0.6995197534561157,accept,resnet18_v1
+Bengal_8.jpg,Maine Coon,0.6833813190460205,accept,resnet18_v1
+Birman_39.jpg,Birman,0.8171560764312744,accept,resnet18_v1
+yorkshire_terrier_198.jpg,Yorkshire Terrier,0.9990376234054565,accept,resnet18_v1
+samoyed_97.jpg,Samoyed,0.9897608160972595,accept,resnet18_v1
+Sphynx_242.jpg,Sphynx,0.9615209698677063,accept,resnet18_v1
+samoyed_63.jpg,Samoyed,0.5177158117294312,abstain,resnet18_v1
+Ragdoll_254.jpg,Ragdoll,0.9184055328369141,accept,resnet18_v1
+great_pyrenees_3.jpg,Great Pyrenees,0.8217009902000427,accept,resnet18_v1
+Bombay_71.jpg,Bombay,0.9997140765190125,accept,resnet18_v1
+yorkshire_terrier_99.jpg,Yorkshire Terrier,0.9842495322227478,accept,resnet18_v1
+american_pit_bull_terrier_193.jpg,American Pit Bull Terrier,0.9932956099510193,accept,resnet18_v1
+german_shorthaired_85.jpg,German Shorthaired,0.9989190101623535,accept,resnet18_v1
+samoyed_50.jpg,Samoyed,0.9981878399848938,accept,resnet18_v1
+Ragdoll_208.jpg,Birman,0.9365748763084412,accept,resnet18_v1
+great_pyrenees_30.jpg,Great Pyrenees,0.9791219830513,accept,resnet18_v1
+scottish_terrier_51.jpg,Scottish Terrier,0.8830819129943848,accept,resnet18_v1
+basset_hound_99.jpg,Basset Hound,0.7807887196540833,accept,resnet18_v1
+english_cocker_spaniel_24.jpg,English Cocker Spaniel,0.976342499256134,accept,resnet18_v1
+scottish_terrier_77.jpg,Scottish Terrier,0.9999929666519165,accept,resnet18_v1
+Sphynx_9.jpg,Sphynx,0.4782390892505646,abstain,resnet18_v1
+Russian_Blue_264.jpg,British Shorthair,0.8196947574615479,accept,resnet18_v1
+Ragdoll_47.jpg,Ragdoll,0.6440509557723999,abstain,resnet18_v1
+Ragdoll_75.jpg,Ragdoll,0.9371635317802429,accept,resnet18_v1

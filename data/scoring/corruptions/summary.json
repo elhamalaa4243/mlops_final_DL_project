@@ -1,0 +1,56 @@
+{
+  "brightness_low": {
+    "method": "brightness",
+    "severity": 1.15,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/brightness_low/manifest.csv"
+  },
+  "brightness_medium": {
+    "method": "brightness",
+    "severity": 1.4,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/brightness_medium/manifest.csv"
+  },
+  "brightness_high": {
+    "method": "brightness",
+    "severity": 1.8,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/brightness_high/manifest.csv"
+  },
+  "contrast_low": {
+    "method": "contrast",
+    "severity": 1.15,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/contrast_low/manifest.csv"
+  },
+  "contrast_medium": {
+    "method": "contrast",
+    "severity": 1.4,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/contrast_medium/manifest.csv"
+  },
+  "contrast_high": {
+    "method": "contrast",
+    "severity": 1.8,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/contrast_high/manifest.csv"
+  },
+  "blur_low": {
+    "method": "blur",
+    "severity": 0.7,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/blur_low/manifest.csv"
+  },
+  "blur_medium": {
+    "method": "blur",
+    "severity": 1.5,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/blur_medium/manifest.csv"
+  },
+  "blur_high": {
+    "method": "blur",
+    "severity": 3.0,
+    "images": 500,
+    "manifest": "data/scoring/corruptions/blur_high/manifest.csv"
+  }
+}

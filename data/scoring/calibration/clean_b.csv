@@ -1,0 +1,501 @@
+image_path,label,breed,source_split,split
+data/raw/oxford-iiit-pet/images/British_Shorthair_186.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_12.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_188.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_142.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_172.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_10.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_101.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/pug_147.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_217.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_136.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_128.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_153.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_186.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_185.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_137.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_13.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_134.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_179.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_180.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_100.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_146.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_11.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_16.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_137.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_119.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_102.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_188.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_115.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_124.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_154.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_121.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_143.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_113.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_144.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_170.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_133.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_180.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_100.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_152.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_165.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_186.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_131.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_153.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_11.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_181.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_100.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_169.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_100.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_177.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_123.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_115.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_100.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_150.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_181.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_145.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_11.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_170.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_136.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_11.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_146.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_153.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_104.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_134.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_131.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_100.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_166.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_155.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_103.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_149.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_181.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_109.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_181.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_138.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_192.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_12.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_135.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_174.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/pug_180.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_187.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/boxer_101.jpg,8,Boxer,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_169.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_102.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_134.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_208.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_190.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_145.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/samoyed_170.jpg,29,Samoyed,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_167.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_184.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_158.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_192.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/pug_121.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_158.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_151.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_141.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_143.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_145.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_164.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_122.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_12.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_184.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_155.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_165.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_179.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_155.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_139.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_184.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_185.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_100.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_105.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_153.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_106.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_182.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_158.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_102.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_128.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_143.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_16.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_18.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_160.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_140.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_170.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_18.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_166.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_188.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_120.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_125.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_175.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_140.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_177.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_134.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_172.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_103.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_13.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_110.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_142.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_148.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_153.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_116.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_111.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_159.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_156.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_178.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_128.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/pug_158.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_139.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_16.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_148.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_121.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_194.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_11.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_185.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_188.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/samoyed_147.jpg,29,Samoyed,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_135.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_156.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_186.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_143.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_175.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_111.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_109.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_192.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_142.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_161.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_149.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_183.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_11.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_13.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_158.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_117.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_186.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_113.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_157.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_173.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_140.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_148.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_169.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_177.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_138.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_160.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_123.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_130.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_189.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_189.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_174.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_103.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_117.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_168.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_107.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_169.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/pug_162.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_126.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_105.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_176.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_162.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_101.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_101.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_179.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_122.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_107.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_158.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_117.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_166.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_125.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_161.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_142.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_128.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_151.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_127.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_150.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_136.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_118.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_158.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_112.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/samoyed_183.jpg,29,Samoyed,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_185.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_176.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_10.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_147.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/pug_103.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_119.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_114.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_158.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_17.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_109.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_10.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_141.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_143.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_146.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_162.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_159.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_191.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_135.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_111.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_186.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_132.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_129.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_143.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_127.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_140.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/boxer_187.jpg,8,Boxer,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_160.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_160.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_128.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_134.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_131.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_110.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_175.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_101.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_11.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_147.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_149.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_119.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_135.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/boxer_148.jpg,8,Boxer,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_183.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_166.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_153.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_18.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_143.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/pug_123.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_18.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_173.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_112.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_164.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_179.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_188.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_172.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_117.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_135.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_126.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_110.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_188.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/samoyed_113.jpg,29,Samoyed,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_125.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_162.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_191.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_116.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_106.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_151.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/boxer_167.jpg,8,Boxer,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_148.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_182.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_121.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_12.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_17.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_191.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_175.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_116.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_138.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/samoyed_118.jpg,29,Samoyed,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_104.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_116.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_107.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_114.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_143.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_107.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_162.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_204.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_167.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_110.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_171.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_119.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_132.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/pug_107.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_102.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_124.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_146.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_138.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_12.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_140.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/pug_136.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/boxer_138.jpg,8,Boxer,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_13.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_117.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_110.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_121.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_196.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_184.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_163.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_117.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_125.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_179.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_155.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_192.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_161.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_161.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_114.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_149.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_154.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_147.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_10.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_123.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_126.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_184.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_151.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_149.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_177.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_119.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_139.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_144.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/boxer_104.jpg,8,Boxer,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_128.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_150.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_157.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_171.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_183.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/pug_149.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_116.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_178.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_116.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_135.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_18.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_186.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_110.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_193.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_185.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_130.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_187.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_138.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_169.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_164.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/pug_189.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_170.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_156.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_138.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/pug_131.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_13.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_128.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_14.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_125.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_190.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/pug_184.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_139.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_176.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_112.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_176.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_124.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_117.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_126.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_185.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_176.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_153.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_101.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_105.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_15.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_118.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_167.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/staffordshire_bull_terrier_116.jpg,34,Staffordshire Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_105.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_103.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_1.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_174.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/english_cocker_spaniel_12.jpg,12,English Cocker Spaniel,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_108.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_144.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_183.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_115.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_162.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_146.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_173.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_144.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_137.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_14.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/boxer_166.jpg,8,Boxer,trainval,train
+data/raw/oxford-iiit-pet/images/american_bulldog_168.jpg,1,American Bulldog,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_178.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_151.jpg,16,Havanese,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_187.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_124.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_127.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_16.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_141.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/newfoundland_106.jpg,22,Newfoundland,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_190.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_170.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_158.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_140.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/samoyed_120.jpg,29,Samoyed,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_131.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_121.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_125.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_106.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_201.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_155.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/pug_192.jpg,25,Pug,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_186.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_173.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_195.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/pomeranian_151.jpg,24,Pomeranian,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_103.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_187.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_148.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_183.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/Sphynx_170.jpg,33,Sphynx,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_121.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/english_setter_100.jpg,13,English Setter,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_179.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/saint_bernard_188.jpg,28,Saint Bernard,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_160.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_190.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/boxer_110.jpg,8,Boxer,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_146.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_10.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_120.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_182.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_122.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/japanese_chin_140.jpg,17,Japanese Chin,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_102.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_12.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_153.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/samoyed_108.jpg,29,Samoyed,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_167.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_18.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_112.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_156.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_188.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_149.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/Ragdoll_100.jpg,26,Ragdoll,trainval,train
+data/raw/oxford-iiit-pet/images/Siamese_187.jpg,32,Siamese,trainval,train
+data/raw/oxford-iiit-pet/images/Bengal_117.jpg,5,Bengal,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_186.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_157.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/Maine_Coon_182.jpg,20,Maine Coon,trainval,train
+data/raw/oxford-iiit-pet/images/keeshond_155.jpg,18,Keeshond,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_13.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_113.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_114.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_173.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_108.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_170.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_155.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_132.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_145.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_189.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/great_pyrenees_100.jpg,15,Great Pyrenees,trainval,train
+data/raw/oxford-iiit-pet/images/german_shorthaired_112.jpg,14,German Shorthaired,trainval,train
+data/raw/oxford-iiit-pet/images/chihuahua_114.jpg,10,Chihuahua,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_129.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/basset_hound_110.jpg,3,Basset Hound,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_174.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Abyssinian_10.jpg,0,Abyssinian,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_198.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/British_Shorthair_100.jpg,9,British Shorthair,trainval,train
+data/raw/oxford-iiit-pet/images/scottish_terrier_158.jpg,30,Scottish Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_165.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/samoyed_161.jpg,29,Samoyed,trainval,train
+data/raw/oxford-iiit-pet/images/Russian_Blue_179.jpg,27,Russian Blue,trainval,train
+data/raw/oxford-iiit-pet/images/miniature_pinscher_138.jpg,21,Miniature Pinscher,trainval,train
+data/raw/oxford-iiit-pet/images/Birman_177.jpg,6,Birman,trainval,train
+data/raw/oxford-iiit-pet/images/shiba_inu_116.jpg,31,Shiba Inu,trainval,train
+data/raw/oxford-iiit-pet/images/beagle_137.jpg,4,Beagle,trainval,train
+data/raw/oxford-iiit-pet/images/yorkshire_terrier_171.jpg,36,Yorkshire Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/leonberger_139.jpg,19,Leonberger,trainval,train
+data/raw/oxford-iiit-pet/images/Bombay_180.jpg,7,Bombay,trainval,train
+data/raw/oxford-iiit-pet/images/Persian_120.jpg,23,Persian,trainval,train
+data/raw/oxford-iiit-pet/images/wheaten_terrier_154.jpg,35,Wheaten Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/Egyptian_Mau_165.jpg,11,Egyptian Mau,trainval,train
+data/raw/oxford-iiit-pet/images/american_pit_bull_terrier_153.jpg,2,American Pit Bull Terrier,trainval,train
+data/raw/oxford-iiit-pet/images/havanese_175.jpg,16,Havanese,trainval,train

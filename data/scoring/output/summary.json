@@ -1,0 +1,6 @@
+{
+  "model_version": "resnet18_v1",
+  "images_scored": 1000,
+  "duration_seconds": 54.28,
+  "output_file": "data/scoring/output/predictions.csv"
+}

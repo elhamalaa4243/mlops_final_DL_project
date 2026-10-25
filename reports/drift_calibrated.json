@@ -1,0 +1,27 @@
+{
+  "reference_samples": 1000,
+  "current_samples": 1000,
+  "scores": {
+    "embedding_mmd2": 0.003073440415716444,
+    "confidence_wasserstein": 0.10414769625663756,
+    "pixel_brightness": 0.02956592362717143,
+    "pixel_contrast": 0.08397123475199066,
+    "pixel_sharpness": 0.13031907939594195
+  },
+  "thresholds": {
+    "embedding_mmd2": 0.0008665673491332945,
+    "confidence_wasserstein": 0.007729372373223302,
+    "pixel_brightness": 0.11985906154248668,
+    "pixel_contrast": 0.12300328430511642,
+    "pixel_sharpness": 0.13125544515792065
+  },
+  "alerts": {
+    "embedding_mmd2": true,
+    "confidence_wasserstein": true,
+    "pixel_brightness": false,
+    "pixel_contrast": false,
+    "pixel_sharpness": false
+  },
+  "drift_detected": true,
+  "calibration_method": "clean_resampling_95th_percentile"
+}

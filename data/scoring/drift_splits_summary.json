@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "reference": {
+    "source_split": "train",
+    "count": 1000,
+    "breeds": 37
+  },
+  "current": {
+    "source_split": "test",
+    "count": 1000,
+    "breeds": 37
+  },
+  "overlap": 0
+}
